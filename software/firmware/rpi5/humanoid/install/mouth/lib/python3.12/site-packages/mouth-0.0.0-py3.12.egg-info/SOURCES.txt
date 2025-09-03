@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mouth/mouth.egg-info/PKG-INFO
+../../build/mouth/mouth.egg-info/SOURCES.txt
+../../build/mouth/mouth.egg-info/dependency_links.txt
+../../build/mouth/mouth.egg-info/entry_points.txt
+../../build/mouth/mouth.egg-info/requires.txt
+../../build/mouth/mouth.egg-info/top_level.txt
+../../build/mouth/mouth.egg-info/zip-safe
+mouth/__init__.py
+mouth/speak_with_piperTTS.py
+resource/mouth
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

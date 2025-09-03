@@ -1,0 +1,19 @@
+[3.289s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/head': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/head build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/install.log --single-version-externally-managed install_data
+[4.131s] running egg_info
+[4.183s] writing ../../build/head/head.egg-info/PKG-INFO
+[4.184s] writing dependency_links to ../../build/head/head.egg-info/dependency_links.txt
+[4.187s] writing requirements to ../../build/head/head.egg-info/requires.txt
+[4.187s] writing top-level names to ../../build/head/head.egg-info/top_level.txt
+[4.312s] reading manifest file '../../build/head/head.egg-info/SOURCES.txt'
+[4.315s] writing manifest file '../../build/head/head.egg-info/SOURCES.txt'
+[4.315s] running build
+[4.315s] running build_py
+[4.318s] running install
+[4.337s] running install_lib
+[4.390s] running install_data
+[4.391s] running install_egg_info
+[4.457s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages/head-0.0.0-py3.12.egg-info' (and everything under it)
+[4.457s] Copying ../../build/head/head.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages/head-0.0.0-py3.12.egg-info
+[4.459s] running install_scripts
+[4.865s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/install.log'
+[5.266s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/head' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/head build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/install.log --single-version-externally-managed install_data

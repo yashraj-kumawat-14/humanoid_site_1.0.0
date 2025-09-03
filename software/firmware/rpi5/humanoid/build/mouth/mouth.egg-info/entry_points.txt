@@ -1,0 +1,2 @@
+[console_scripts]
+speak = mouth.speak_with_piperTTS:main

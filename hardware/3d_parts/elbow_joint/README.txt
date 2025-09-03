@@ -1,0 +1,4 @@
+Pan / Tilt kit for TowerPro SG90 9g servos by SPGilmore on Thingiverse: https://www.thingiverse.com/thing:1054939
+
+Summary:
+This is a pan and tilt rig which fits TowerPro SG90 servos.  These servos cost about $2 on ebay.  This thing was designed to work as the neck / head platform for a Halloween prop.  The motors have plenty of muscle for a light head.  I used a thin plastic Jack-o-Lantern candy bucket.  We added a Raspberry Pi and a PiCam, then programmed it to do face tracking using computer vision software.  You could also use an Arduino Nano ($2.50) and a PIR sensor ($3) to have a scarecrow "come to life" when someone comes near it or use an HC-05 bluetooth-to-serial converter to control it remotely from your phone or tablet.  This was not designed to be compact for R/C FPV.  It is intended to be a light neck mechanism.  However, it may be suited to other, larger FPV applications.

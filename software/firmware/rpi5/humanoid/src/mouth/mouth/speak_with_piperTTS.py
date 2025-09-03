@@ -10,7 +10,9 @@ class Speak(Node):
 	def __init__(self):
 		super().__init__("node_speak")
 		
-		self.voice = None # By the way choose default one from settings.json
+		model_path = "./piper_models/hindi_models/female/priyamvada/hi_IN-priyamvada-medium.onnx"# By the way choose default one from settings.json
+		
+		self.voice = PiperVoice.load(model_path)
 		self.current_model = None
 		
 		self.create_subscription(String, "piper_tts_model_select", self.model_change_callback, 10)
@@ -24,12 +26,19 @@ class Speak(Node):
 			if not sentence:
 				continue
 			self.get_logger().info(f"Speaking: {sentence}")
-			for chunk in voice.synthesize(sentence):
+			for chunk in self.voice.synthesize(sentence):
 				audio = np.frombuffer(chunk.audio_int16_bytes, dtype=np.int16)
 				sd.play(audio, samplerate=chunk.sample_rate)
 				sd.wait()
 		
 	def model_change_callback(self, msg):
+		model_path = msg.data.strip()
+		try:
+			self.voice = PiperVoice.load(model_path)
+			self.current_model = model_path
+			self.get_logger().info(f"Loaded Piper model: {model_path}")
+		except Exception as e:
+			self.get_logger().error(f"Failed to load model {model_path}: {e}")
 		
 
 

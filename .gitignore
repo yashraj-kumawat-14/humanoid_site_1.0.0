@@ -1,21 +1,4 @@
-# Ignore Piper models
-software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/female/kathleen
-!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/female/kathleen/.gitkeep
+# Ignore all Piper models
+software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/**/*
+!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/**/.gitkeep
 
-software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/male/lessac
-!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/male/lessac/.gitkeep
-
-software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/male/chitwan
-!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/male/chitwan/.gitkeep
-
-software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/male/ryan
-!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/male/ryan/.gitkeep
-
-software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/hindi_models/male/pratham
-!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/hindi_models/male/pratham/.gitkeep
-
-software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/hindi_models/male/pratham
-!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/hindi_models/male/pratham/.gitkeep
-
-software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/hindi_models/female/priyamvada
-!software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/hindi_models/female/priyamvada/.gitkeep

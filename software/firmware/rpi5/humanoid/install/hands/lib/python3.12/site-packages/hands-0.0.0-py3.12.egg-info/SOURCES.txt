@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/hands/hands.egg-info/PKG-INFO
+../../build/hands/hands.egg-info/SOURCES.txt
+../../build/hands/hands.egg-info/dependency_links.txt
+../../build/hands/hands.egg-info/requires.txt
+../../build/hands/hands.egg-info/top_level.txt
+../../build/hands/hands.egg-info/zip-safe
+hands/__init__.py
+resource/hands
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

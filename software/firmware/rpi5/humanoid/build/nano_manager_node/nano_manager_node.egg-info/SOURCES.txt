@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/nano_manager_node/nano_manager_node.egg-info/PKG-INFO
+../../build/nano_manager_node/nano_manager_node.egg-info/SOURCES.txt
+../../build/nano_manager_node/nano_manager_node.egg-info/dependency_links.txt
+../../build/nano_manager_node/nano_manager_node.egg-info/requires.txt
+../../build/nano_manager_node/nano_manager_node.egg-info/top_level.txt
+../../build/nano_manager_node/nano_manager_node.egg-info/zip-safe
+nano_manager_node/__init__.py
+resource/nano_manager_node
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

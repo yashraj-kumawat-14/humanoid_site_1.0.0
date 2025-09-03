@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/legs/legs.egg-info/PKG-INFO
+../../build/legs/legs.egg-info/SOURCES.txt
+../../build/legs/legs.egg-info/dependency_links.txt
+../../build/legs/legs.egg-info/requires.txt
+../../build/legs/legs.egg-info/top_level.txt
+../../build/legs/legs.egg-info/zip-safe
+legs/__init__.py
+resource/legs
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

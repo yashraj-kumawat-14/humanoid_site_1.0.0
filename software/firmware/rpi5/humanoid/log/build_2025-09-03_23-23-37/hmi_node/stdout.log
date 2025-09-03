@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/hmi_node/hmi_node.egg-info
+writing ../../build/hmi_node/hmi_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/hmi_node/hmi_node.egg-info/dependency_links.txt
+writing requirements to ../../build/hmi_node/hmi_node.egg-info/requires.txt
+writing top-level names to ../../build/hmi_node/hmi_node.egg-info/top_level.txt
+writing manifest file '../../build/hmi_node/hmi_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/hmi_node/hmi_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/hmi_node/hmi_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build/lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build/lib/hmi_node
+copying hmi_node/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build/lib/hmi_node
+running install
+running install_lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages/hmi_node
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build/lib/hmi_node/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages/hmi_node
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages/hmi_node/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/ament_index
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/ament_index/resource_index
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/ament_index/resource_index/packages
+copying resource/hmi_node -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/hmi_node
+running install_egg_info
+Copying ../../build/hmi_node/hmi_node.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages/hmi_node-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/install.log'

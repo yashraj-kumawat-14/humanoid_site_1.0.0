@@ -1,0 +1,6 @@
+source;share/hmi_node/hook/pythonpath.ps1
+source;share/hmi_node/hook/pythonpath.dsv
+source;share/hmi_node/hook/pythonpath.sh
+source;share/hmi_node/hook/ament_prefix_path.ps1
+source;share/hmi_node/hook/ament_prefix_path.dsv
+source;share/hmi_node/hook/ament_prefix_path.sh

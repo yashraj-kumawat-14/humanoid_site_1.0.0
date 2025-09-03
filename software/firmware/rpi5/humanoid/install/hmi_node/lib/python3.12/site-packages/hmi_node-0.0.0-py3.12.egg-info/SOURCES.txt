@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/hmi_node/hmi_node.egg-info/PKG-INFO
+../../build/hmi_node/hmi_node.egg-info/SOURCES.txt
+../../build/hmi_node/hmi_node.egg-info/dependency_links.txt
+../../build/hmi_node/hmi_node.egg-info/requires.txt
+../../build/hmi_node/hmi_node.egg-info/top_level.txt
+../../build/hmi_node/hmi_node.egg-info/zip-safe
+hmi_node/__init__.py
+resource/hmi_node
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

@@ -1,0 +1,32 @@
+[1.642s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/src/master': CONDA_PROMPT_MODIFIER=(venv) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/master build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/install.log --single-version-externally-managed install_data
+[2.102s] running egg_info
+[2.103s] creating ../../build/master/master.egg-info
+[2.151s] writing ../../build/master/master.egg-info/PKG-INFO
+[2.152s] writing dependency_links to ../../build/master/master.egg-info/dependency_links.txt
+[2.152s] writing requirements to ../../build/master/master.egg-info/requires.txt
+[2.154s] writing top-level names to ../../build/master/master.egg-info/top_level.txt
+[2.154s] writing manifest file '../../build/master/master.egg-info/SOURCES.txt'
+[2.244s] reading manifest file '../../build/master/master.egg-info/SOURCES.txt'
+[2.246s] writing manifest file '../../build/master/master.egg-info/SOURCES.txt'
+[2.247s] running build
+[2.247s] running build_py
+[2.248s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/build
+[2.248s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/build/lib
+[2.248s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/build/lib/master
+[2.248s] copying master/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/build/lib/master
+[2.249s] running install
+[2.266s] running install_lib
+[2.323s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/lib/python3.12/site-packages/master
+[2.324s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/build/lib/master/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/lib/python3.12/site-packages/master
+[2.325s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/lib/python3.12/site-packages/master/__init__.py to __init__.cpython-312.pyc
+[2.326s] running install_data
+[2.326s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/share/ament_index
+[2.327s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/share/ament_index/resource_index
+[2.327s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/share/ament_index/resource_index/packages
+[2.327s] copying resource/master -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/share/ament_index/resource_index/packages
+[2.327s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/share/master
+[2.328s] running install_egg_info
+[2.384s] Copying ../../build/master/master.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/lib/python3.12/site-packages/master-0.0.0-py3.12.egg-info
+[2.386s] running install_scripts
+[2.616s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/install.log'
+[2.681s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/src/master' returned '0': CONDA_PROMPT_MODIFIER=(venv) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/install/master/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/master build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5_brain_firmware/brain/build/master/install.log --single-version-externally-managed install_data

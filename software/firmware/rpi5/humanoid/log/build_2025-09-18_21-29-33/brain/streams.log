@@ -1,0 +1,21 @@
+[3.782s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data
+[4.672s] running egg_info
+[4.741s] writing ../../build/brain/brain.egg-info/PKG-INFO
+[4.742s] writing dependency_links to ../../build/brain/brain.egg-info/dependency_links.txt
+[4.742s] writing entry points to ../../build/brain/brain.egg-info/entry_points.txt
+[4.742s] writing requirements to ../../build/brain/brain.egg-info/requires.txt
+[4.743s] writing top-level names to ../../build/brain/brain.egg-info/top_level.txt
+[4.876s] reading manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[4.877s] writing manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[4.878s] running build
+[4.878s] running build_py
+[4.878s] running install
+[4.899s] running install_lib
+[4.970s] running install_data
+[4.970s] running install_egg_info
+[5.113s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages/brain-0.0.0-py3.12.egg-info' (and everything under it)
+[5.117s] Copying ../../build/brain/brain.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages/brain-0.0.0-py3.12.egg-info
+[5.117s] running install_scripts
+[5.570s] Installing brain script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/brain
+[5.571s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log'
+[5.675s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data

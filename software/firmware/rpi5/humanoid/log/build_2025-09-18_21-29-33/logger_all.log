@@ -1,0 +1,645 @@
+[0.258s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.259s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72d9dc5ef950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72d9dc5ef2f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72d9dc5ef2f0>>, mixin_verb=('build',))[0m
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'ignore'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'ignore_ament_install'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['colcon_pkg']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'colcon_pkg'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['colcon_meta']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'colcon_meta'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['ros']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'ros'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/brain' with type 'ros.ament_python' and name 'brain'[0m
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'ignore'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'ignore_ament_install'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['colcon_pkg']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'colcon_pkg'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['colcon_meta']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'colcon_meta'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['ros']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'ros'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/conversation' with type 'ros.ament_python' and name 'conversation'[0m
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'ignore'
+[0.411s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'ignore_ament_install'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['colcon_pkg']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'colcon_pkg'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['colcon_meta']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'colcon_meta'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['ros']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'ros'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dance' with type 'ros.ament_python' and name 'dance'[0m
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'ignore_ament_install'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['colcon_pkg']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'colcon_pkg'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'ros'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ears' with type 'ros.ament_python' and name 'ears'[0m
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'ignore'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'ignore_ament_install'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['colcon_pkg']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['colcon_meta']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'colcon_meta'
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['ros']
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'ros'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/eyes' with type 'ros.ament_python' and name 'eyes'[0m
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'ignore'
+[0.419s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'ignore_ament_install'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['colcon_pkg']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'colcon_pkg'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['colcon_meta']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'colcon_meta'
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['ros']
+[0.420s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'ros'
+[0.421s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/face_recognition' with type 'ros.ament_python' and name 'face_recognition'[0m
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'ignore'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'ignore_ament_install'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['colcon_pkg']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'colcon_pkg'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['colcon_meta']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'colcon_meta'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['ros']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'ros'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/find_person' with type 'ros.ament_python' and name 'find_person'[0m
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'ignore'
+[0.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'ignore_ament_install'
+[0.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['colcon_pkg']
+[0.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'colcon_pkg'
+[0.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['colcon_meta']
+[0.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'colcon_meta'
+[0.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['ros']
+[0.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'ros'
+[0.426s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/hands' with type 'ros.ament_python' and name 'hands'[0m
+[0.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'ignore'
+[0.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'ignore_ament_install'
+[0.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['colcon_pkg']
+[0.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'colcon_pkg'
+[0.428s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['colcon_meta']
+[0.428s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'colcon_meta'
+[0.428s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['ros']
+[0.428s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'ros'
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/head' with type 'ros.ament_python' and name 'head'[0m
+[0.429s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'ignore'
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'ignore_ament_install'
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['colcon_pkg']
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'colcon_pkg'
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['colcon_meta']
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'colcon_meta'
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['ros']
+[0.430s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'ros'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/hmi' with type 'ros.ament_python' and name 'hmi_node'[0m
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'ignore'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'ignore_ament_install'
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['colcon_pkg']
+[0.432s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'colcon_pkg'
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['colcon_meta']
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'colcon_meta'
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['ros']
+[0.433s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'ros'
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/launch_humanoid' with type 'ros.ament_python' and name 'launch_humanoid'[0m
+[0.434s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'ignore'
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'ignore_ament_install'
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['colcon_pkg']
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'colcon_pkg'
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['colcon_meta']
+[0.435s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'colcon_meta'
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['ros']
+[0.436s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'ros'
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/legs' with type 'ros.ament_python' and name 'legs'[0m
+[0.437s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'ignore'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'ignore_ament_install'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['colcon_pkg']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'colcon_pkg'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['colcon_meta']
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'colcon_meta'
+[0.438s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['ros']
+[0.439s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'ros'
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mouth' with type 'ros.ament_python' and name 'mouth'[0m
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'ignore'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'ignore_ament_install'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['colcon_pkg']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'colcon_pkg'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['colcon_meta']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'colcon_meta'
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['ros']
+[0.441s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'ros'
+[0.442s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/namaste' with type 'ros.ament_python' and name 'namste'[0m
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'ignore'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'ignore_ament_install'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['colcon_pkg']
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'colcon_pkg'
+[0.443s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['colcon_meta']
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'colcon_meta'
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['ros']
+[0.444s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'ros'
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/nano_manager_node' with type 'ros.ament_python' and name 'nano_manager_node'[0m
+[0.445s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'ignore'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'ignore_ament_install'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['colcon_pkg']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'colcon_pkg'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['colcon_meta']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'colcon_meta'
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['ros']
+[0.446s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'ros'
+[0.448s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/test_speak' with type 'ros.ament_python' and name 'test_speak'[0m
+[0.448s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.448s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.448s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.448s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.448s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.487s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.487s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.495s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 15 installed packages in /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install[0m
+[0.499s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 320 installed packages in /opt/ros/kilted[0m
+[0.501s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_args' from command line to 'None'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_target' from command line to 'None'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.577s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'brain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain', 'symlink_install': False, 'test_result_base': None}[0m
+[0.578s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'cmake_args' from command line to 'None'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'cmake_target' from command line to 'None'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conversation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'conversation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/conversation', 'symlink_install': False, 'test_result_base': None}[0m
+[0.580s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'cmake_args' from command line to 'None'
+[0.580s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'cmake_target' from command line to 'None'
+[0.580s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.581s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'cmake_clean_first' from command line to 'False'
+[0.581s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'cmake_force_configure' from command line to 'False'
+[0.581s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'ament_cmake_args' from command line to 'None'
+[0.581s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.581s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.581s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/dance', 'symlink_install': False, 'test_result_base': None}[0m
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'cmake_args' from command line to 'None'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'cmake_target' from command line to 'None'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ears' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ears' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears', 'symlink_install': False, 'test_result_base': None}[0m
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'cmake_args' from command line to 'None'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'cmake_target' from command line to 'None'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'cmake_clean_first' from command line to 'False'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'cmake_force_configure' from command line to 'False'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'ament_cmake_args' from command line to 'None'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'eyes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.584s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'eyes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/eyes', 'symlink_install': False, 'test_result_base': None}[0m
+[0.585s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'cmake_args' from command line to 'None'
+[0.585s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'cmake_target' from command line to 'None'
+[0.585s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'face_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition', 'symlink_install': False, 'test_result_base': None}[0m
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'cmake_target' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'find_person' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'find_person' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/find_person', 'symlink_install': False, 'test_result_base': None}[0m
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'cmake_args' from command line to 'None'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'cmake_target' from command line to 'None'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hands' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'hands' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hands', 'symlink_install': False, 'test_result_base': None}[0m
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'cmake_args' from command line to 'None'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'cmake_target' from command line to 'None'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'cmake_clean_first' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'ament_cmake_args' from command line to 'None'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'head' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'head' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/head', 'symlink_install': False, 'test_result_base': None}[0m
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'cmake_args' from command line to 'None'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'cmake_target' from command line to 'None'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hmi_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.592s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'hmi_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hmi', 'symlink_install': False, 'test_result_base': None}[0m
+[0.593s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'cmake_args' from command line to 'None'
+[0.593s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'cmake_target' from command line to 'None'
+[0.593s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.593s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.594s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'cmake_clean_first' from command line to 'False'
+[0.594s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'cmake_force_configure' from command line to 'False'
+[0.594s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'ament_cmake_args' from command line to 'None'
+[0.594s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.594s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'launch_humanoid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.594s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'launch_humanoid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/launch_humanoid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/launch_humanoid', 'symlink_install': False, 'test_result_base': None}[0m
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'cmake_args' from command line to 'None'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'cmake_target' from command line to 'None'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'legs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.596s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'legs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/legs', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/legs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.596s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'cmake_args' from command line to 'None'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'cmake_target' from command line to 'None'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'cmake_clean_cache' from command line to 'False'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'cmake_clean_first' from command line to 'False'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'cmake_force_configure' from command line to 'False'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'ament_cmake_args' from command line to 'None'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'catkin_cmake_args' from command line to 'None'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mouth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mouth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/mouth', 'symlink_install': False, 'test_result_base': None}[0m
+[0.598s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'cmake_args' from command line to 'None'
+[0.598s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'cmake_target' from command line to 'None'
+[0.598s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'cmake_clean_first' from command line to 'False'
+[0.599s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'cmake_force_configure' from command line to 'False'
+[0.599s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'ament_cmake_args' from command line to 'None'
+[0.599s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'catkin_cmake_args' from command line to 'None'
+[0.599s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'namste' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.599s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'namste' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/namaste', 'symlink_install': False, 'test_result_base': None}[0m
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'cmake_args' from command line to 'None'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'cmake_target' from command line to 'None'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nano_manager_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.600s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'nano_manager_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/nano_manager_node', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/nano_manager_node', 'symlink_install': False, 'test_result_base': None}[0m
+[0.601s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'cmake_args' from command line to 'None'
+[0.601s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'cmake_target' from command line to 'None'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'cmake_clean_cache' from command line to 'False'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'cmake_clean_first' from command line to 'False'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'cmake_force_configure' from command line to 'False'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'ament_cmake_args' from command line to 'None'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'catkin_cmake_args' from command line to 'None'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'test_speak' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.602s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'test_speak' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/test_speak', 'symlink_install': False, 'test_result_base': None}[0m
+[0.602s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.604s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.606s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain' with build type 'ament_python'
+[0.606s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('brain', 'ament_prefix_path')
+[0.621s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/ament_prefix_path.ps1'
+[0.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/ament_prefix_path.dsv'
+[0.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/ament_prefix_path.sh'
+[0.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.627s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.639s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/conversation' with build type 'ament_python'
+[0.639s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('conversation', 'ament_prefix_path')
+[0.640s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/hook/ament_prefix_path.ps1'
+[0.641s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/hook/ament_prefix_path.dsv'
+[0.642s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/hook/ament_prefix_path.sh'
+[0.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.644s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.659s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/dance' with build type 'ament_python'
+[0.659s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dance', 'ament_prefix_path')
+[0.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/hook/ament_prefix_path.ps1'
+[0.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/hook/ament_prefix_path.dsv'
+[0.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/hook/ament_prefix_path.sh'
+[0.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.663s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.671s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears' with build type 'ament_python'
+[0.673s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ears', 'ament_prefix_path')
+[0.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/hook/ament_prefix_path.ps1'
+[0.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/hook/ament_prefix_path.dsv'
+[0.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/hook/ament_prefix_path.sh'
+[0.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.678s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.058s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain'
+[1.059s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.059s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.443s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/conversation'
+[1.444s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.444s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.824s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/dance'
+[1.825s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.825s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.221s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears'
+[2.222s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.223s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[4.360s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/dance': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dance build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/install.log --single-version-externally-managed install_data[0m
+[4.390s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data[0m
+[4.394s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/conversation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conversation build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/install.log --single-version-externally-managed install_data[0m
+[4.402s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ears build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log --single-version-externally-managed install_data[0m
+[6.283s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data[0m
+[6.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain' for CMake module files
+[6.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain' for CMake config files
+[6.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib'
+[6.311s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/bin'
+[6.311s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/pkgconfig/brain.pc'
+[6.313s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages'
+[6.313s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('brain', 'pythonpath')
+[6.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/pythonpath.ps1'
+[6.318s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/pythonpath.dsv'
+[6.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/pythonpath.sh'
+[6.326s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/bin'
+[6.326s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(brain)
+[6.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.ps1'
+[6.333s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.dsv'
+[6.338s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.sh'
+[6.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.bash'
+[6.352s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.zsh'
+[6.356s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/colcon-core/packages/brain)
+[6.357s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/eyes' with build type 'ament_python'
+[6.359s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('eyes', 'ament_prefix_path')
+[6.362s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/hook/ament_prefix_path.ps1'
+[6.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/hook/ament_prefix_path.dsv'
+[6.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/hook/ament_prefix_path.sh'
+[6.374s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.375s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[6.988s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/eyes'
+[6.989s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.989s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation' for CMake module files
+[7.005s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/conversation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conversation build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/install.log --single-version-externally-managed install_data[0m
+[7.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation' for CMake config files
+[7.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib'
+[7.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/bin'
+[7.009s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/pkgconfig/conversation.pc'
+[7.009s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages'
+[7.009s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('conversation', 'pythonpath')
+[7.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/hook/pythonpath.ps1'
+[7.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/hook/pythonpath.dsv'
+[7.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/hook/pythonpath.sh'
+[7.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/bin'
+[7.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(conversation)
+[7.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/package.ps1'
+[7.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/package.dsv'
+[7.015s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/package.sh'
+[7.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/package.bash'
+[7.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation/package.zsh'
+[7.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/colcon-core/packages/conversation)
+[7.020s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition' with build type 'ament_python'
+[7.020s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('face_recognition', 'ament_prefix_path')
+[7.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/hook/ament_prefix_path.ps1'
+[7.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/hook/ament_prefix_path.dsv'
+[7.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/hook/ament_prefix_path.sh'
+[7.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.028s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.043s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears' for CMake module files
+[7.044s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ears build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log --single-version-externally-managed install_data[0m
+[7.046s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears' for CMake config files
+[7.049s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib'
+[7.049s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/bin'
+[7.050s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/pkgconfig/ears.pc'
+[7.050s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages'
+[7.051s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ears', 'pythonpath')
+[7.051s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/hook/pythonpath.ps1'
+[7.052s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/hook/pythonpath.dsv'
+[7.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/hook/pythonpath.sh'
+[7.054s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/bin'
+[7.055s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ears)
+[7.055s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/package.ps1'
+[7.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/package.dsv'
+[7.058s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/package.sh'
+[7.059s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/package.bash'
+[7.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears/package.zsh'
+[7.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/colcon-core/packages/ears)
+[7.062s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance' for CMake module files
+[7.064s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance' for CMake config files
+[7.066s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/dance' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dance build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/install.log --single-version-externally-managed install_data[0m
+[7.069s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib'
+[7.070s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/bin'
+[7.070s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/pkgconfig/dance.pc'
+[7.070s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages'
+[7.071s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dance', 'pythonpath')
+[7.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/hook/pythonpath.ps1'
+[7.074s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/hook/pythonpath.dsv'
+[7.075s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/hook/pythonpath.sh'
+[7.077s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/bin'
+[7.077s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dance)
+[7.078s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/package.ps1'
+[7.081s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/package.dsv'
+[7.082s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/package.sh'
+[7.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/package.bash'
+[7.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance/package.zsh'
+[7.086s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/colcon-core/packages/dance)
+[7.088s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/find_person' with build type 'ament_python'
+[7.088s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('find_person', 'ament_prefix_path')
+[7.089s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/hook/ament_prefix_path.ps1'
+[7.090s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/hook/ament_prefix_path.dsv'
+[7.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/hook/ament_prefix_path.sh'
+[7.094s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.094s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.106s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hands' with build type 'ament_python'
+[7.107s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hands', 'ament_prefix_path')
+[7.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/share/hands/hook/ament_prefix_path.ps1'
+[7.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/share/hands/hook/ament_prefix_path.dsv'
+[7.111s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/share/hands/hook/ament_prefix_path.sh'
+[7.112s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.112s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.698s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition'
+[7.699s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.699s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[8.241s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/find_person'
+[8.242s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.242s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[8.769s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hands'
+[8.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.769s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[8.788s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/eyes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eyes build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/install.log --single-version-externally-managed install_data[0m
+[10.627s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/find_person': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/find_person build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/install.log --single-version-externally-managed install_data[0m
+[10.860s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_recognition build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log --single-version-externally-managed install_data[0m
+[11.212s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes' for CMake module files
+[11.213s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/eyes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eyes build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/install.log --single-version-externally-managed install_data[0m
+[11.214s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes' for CMake config files
+[11.224s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib'
+[11.224s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/bin'
+[11.224s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/pkgconfig/eyes.pc'
+[11.225s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages'
+[11.225s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('eyes', 'pythonpath')
+[11.226s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/hook/pythonpath.ps1'
+[11.232s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/hook/pythonpath.dsv'
+[11.233s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/hook/pythonpath.sh'
+[11.234s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/bin'
+[11.234s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(eyes)
+[11.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/package.ps1'
+[11.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/package.dsv'
+[11.244s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/package.sh'
+[11.247s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/package.bash'
+[11.248s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes/package.zsh'
+[11.248s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/colcon-core/packages/eyes)
+[11.250s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/head' with build type 'ament_python'
+[11.251s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('head', 'ament_prefix_path')
+[11.253s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/share/head/hook/ament_prefix_path.ps1'
+[11.254s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/share/head/hook/ament_prefix_path.dsv'
+[11.255s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/share/head/hook/ament_prefix_path.sh'
+[11.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.263s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[12.077s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/head'
+[12.078s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.080s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[12.101s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hands': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hands build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/install.log --single-version-externally-managed install_data[0m
+[12.859s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person' for CMake module files
+[12.861s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person' for CMake config files
+[12.862s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/find_person' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/find_person build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/install.log --single-version-externally-managed install_data[0m
+[12.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib'
+[12.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/bin'
+[12.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/pkgconfig/find_person.pc'
+[12.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/python3.12/site-packages'
+[12.872s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('find_person', 'pythonpath')
+[12.872s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/hook/pythonpath.ps1'
+[12.875s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/hook/pythonpath.dsv'
+[12.876s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/hook/pythonpath.sh'
+[12.880s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/bin'
+[12.881s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(find_person)
+[12.881s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/package.ps1'
+[12.882s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/package.dsv'
+[12.888s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/package.sh'
+[12.893s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/package.bash'
+[12.894s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person/package.zsh'
+[12.894s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/colcon-core/packages/find_person)
+[12.899s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hmi' with build type 'ament_python'
+[12.899s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hmi_node', 'ament_prefix_path')
+[12.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/hmi_node/hook/ament_prefix_path.ps1'
+[12.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/hmi_node/hook/ament_prefix_path.dsv'
+[12.908s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/hmi_node/hook/ament_prefix_path.sh'
+[12.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.917s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[13.744s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hmi'
+[13.745s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.745s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[13.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition' for CMake module files
+[13.761s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_recognition build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log --single-version-externally-managed install_data[0m
+[13.763s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition' for CMake config files
+[13.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib'
+[13.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/bin'
+[13.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/pkgconfig/face_recognition.pc'
+[13.770s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages'
+[13.771s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('face_recognition', 'pythonpath')
+[13.771s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/hook/pythonpath.ps1'
+[13.774s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/hook/pythonpath.dsv'
+[13.776s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/hook/pythonpath.sh'
+[13.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/bin'
+[13.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(face_recognition)
+[13.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/package.ps1'
+[13.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/package.dsv'
+[13.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/package.sh'
+[13.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/package.bash'
+[13.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition/package.zsh'
+[13.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/colcon-core/packages/face_recognition)
+[13.791s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/launch_humanoid' with build type 'ament_python'
+[13.791s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('launch_humanoid', 'ament_prefix_path')
+[13.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/share/launch_humanoid/hook/ament_prefix_path.ps1'
+[13.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/share/launch_humanoid/hook/ament_prefix_path.dsv'
+[13.797s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/share/launch_humanoid/hook/ament_prefix_path.sh'
+[13.800s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.800s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[15.404s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[15.405s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[15.405s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with 'Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.'[0m
+[15.405s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[15.453s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.453s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.453s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[15.489s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[15.489s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.ps1'
+[15.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/_local_setup_util_ps1.py'
+[15.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.ps1'
+[15.502s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.sh'
+[15.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/_local_setup_util_sh.py'
+[15.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.sh'
+[15.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.bash'
+[15.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.bash'
+[15.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.zsh'
+[15.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.zsh'

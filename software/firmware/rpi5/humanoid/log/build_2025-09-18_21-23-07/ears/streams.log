@@ -1,0 +1,45 @@
+[3.280s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ears build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log --single-version-externally-managed install_data
+[3.969s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.969s]   warnings.warn(msg)
+[4.337s] running egg_info
+[4.391s] writing ../../build/ears/ears.egg-info/PKG-INFO
+[4.392s] writing dependency_links to ../../build/ears/ears.egg-info/dependency_links.txt
+[4.393s] writing entry points to ../../build/ears/ears.egg-info/entry_points.txt
+[4.395s] writing requirements to ../../build/ears/ears.egg-info/requires.txt
+[4.396s] writing top-level names to ../../build/ears/ears.egg-info/top_level.txt
+[4.501s] reading manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+[4.502s] Traceback (most recent call last):
+[4.502s]   File "/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears/setup.py", line 5, in <module>
+[4.502s]     setup(
+[4.502s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/__init__.py", line 117, in setup
+[4.503s]     return distutils.core.setup(**attrs)
+[4.503s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.503s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[4.503s]     return run_commands(dist)
+[4.504s]            ^^^^^^^^^^^^^^^^^^
+[4.504s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[4.504s]     dist.run_commands()
+[4.506s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[4.506s]     self.run_command(cmd)
+[4.507s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/dist.py", line 1104, in run_command
+[4.507s]     super().run_command(command)
+[4.507s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[4.507s]     cmd_obj.run()
+[4.507s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/command/egg_info.py", line 312, in run
+[4.508s]     self.find_sources()
+[4.508s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[4.508s]     mm.run()
+[4.508s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/command/egg_info.py", line 548, in run
+[4.509s]     self.prune_file_list()
+[4.509s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[4.509s]     super().prune_file_list()
+[4.509s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[4.509s]     base_dir = self.distribution.get_fullname()
+[4.510s]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.510s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[4.510s]     return _distribution_fullname(self.get_name(), self.get_version())
+[4.510s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.510s]   File "/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[4.511s]     canonicalize_version(version, strip_trailing_zero=False),
+[4.511s]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.511s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'

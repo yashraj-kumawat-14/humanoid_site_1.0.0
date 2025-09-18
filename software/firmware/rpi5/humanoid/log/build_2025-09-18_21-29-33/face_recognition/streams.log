@@ -1,0 +1,19 @@
+[3.837s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_recognition build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log --single-version-externally-managed install_data
+[4.846s] running egg_info
+[4.916s] writing ../../build/face_recognition/face_recognition.egg-info/PKG-INFO
+[4.917s] writing dependency_links to ../../build/face_recognition/face_recognition.egg-info/dependency_links.txt
+[4.918s] writing requirements to ../../build/face_recognition/face_recognition.egg-info/requires.txt
+[4.919s] writing top-level names to ../../build/face_recognition/face_recognition.egg-info/top_level.txt
+[5.053s] reading manifest file '../../build/face_recognition/face_recognition.egg-info/SOURCES.txt'
+[5.057s] writing manifest file '../../build/face_recognition/face_recognition.egg-info/SOURCES.txt'
+[5.057s] running build
+[5.058s] running build_py
+[5.058s] running install
+[5.083s] running install_lib
+[5.199s] running install_data
+[5.199s] running install_egg_info
+[5.330s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages/face_recognition-0.0.0-py3.12.egg-info' (and everything under it)
+[5.332s] Copying ../../build/face_recognition/face_recognition.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages/face_recognition-0.0.0-py3.12.egg-info
+[5.335s] running install_scripts
+[5.908s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log'
+[6.739s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_recognition build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log --single-version-externally-managed install_data

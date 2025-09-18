@@ -32,3 +32,9 @@ response = client.responses.create(
 
 print(response.output_text)
 
+
+i added time.sleep(4) in speak node before sending finished msg, which removed the problem of echoing the voice
+
+# Rebuild only your package
+colcon build --packages-select launch_humanoid
+

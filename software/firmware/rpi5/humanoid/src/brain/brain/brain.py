@@ -116,7 +116,7 @@ class Brain(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    brain_node = Brain(name="Asha")
+    brain_node = Brain(name="Vedanshi")
     rclpy.spin(brain_node)
     brain_node.destroy_node()
     rclpy.shutdown()

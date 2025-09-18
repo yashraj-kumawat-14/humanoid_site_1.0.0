@@ -21,6 +21,9 @@ class Speak(Node):
 
         # Publisher for finished speaking
         self.finished_pub = self.create_publisher(String, "piper_tts_done", 10)
+        msg = String()
+        msg.data = "finished"
+        self.finished_pub.publish(msg)
 
     def speak_callback(self, msg):
         text = msg.data

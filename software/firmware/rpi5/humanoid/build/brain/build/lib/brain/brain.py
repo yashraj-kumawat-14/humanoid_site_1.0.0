@@ -4,22 +4,22 @@ from std_msgs.msg import String
 
 
 class Brain(Node):
-    def __init__(self, name="Asha"):
+    def __init__(self, name="Vedanshi"):
         super().__init__("node_brain")
         self.speaking = False
-        self.name = "vedanshi"
+        self.name = name
 
         # === Publishers ===
         self.pub_tts = self.create_publisher(String, "piper_tts_text", 10)
-        #self.pub_conversation = self.create_publisher(String, "conversation_prompt", 10)
-        #self.leg_pub = self.create_publisher(String, "legs_topic", 10)
-        #self.dance_pub = self.create_publisher(String, "dance_topic", 10)
+        self.pub_conversation = self.create_publisher(String, "conversation_prompt", 10)
+        self.legs_pub = self.create_publisher(String, "legs_topic", 10)
+        self.dance_pub = self.create_publisher(String, "dance_topic", 10)
 
         # === Subscribers ===
         self.create_subscription(String, "listen_with_vosk", self.listen_callback, 10)
         self.create_subscription(String, "piper_tts_done", self.speaking_done, 10)
-        #self.create_subscription(String, "conversation_response", self.response_callback, 10)
-        #self.create_subscription(String, "humanoid_action", self.action_callback, 10)
+        self.create_subscription(String, "conversation_response", self.response_callback, 10)
+        self.create_subscription(String, "humanoid_action", self.action_callback, 10)
 
         # === Initial greeting ===
 #        self.say(f"hello my name is {name}, how can i help you")
@@ -61,13 +61,13 @@ class Brain(Node):
             return
             
         self.get_logger().info(f"👂 Heard: {user_text}")
-        self.say(user_text)
+        #self.say(user_text)
 
         # Forward to conversation node
-        #prompt_msg = String()
-        #prompt_msg.data = user_text
-        #self.pub_conversation.publish(prompt_msg)
-        #self.get_logger().info("➡️ Sent prompt to conversation node")
+        prompt_msg = String()
+        prompt_msg.data = user_text
+        self.pub_conversation.publish(prompt_msg)
+        self.get_logger().info("➡️ Sent prompt to conversation node")
 
     def response_callback(self, msg: String):
         """Handle text response from conversation node."""

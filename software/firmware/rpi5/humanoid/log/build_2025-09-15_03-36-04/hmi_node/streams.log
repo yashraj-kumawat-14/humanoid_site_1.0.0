@@ -1,0 +1,24 @@
+[2.804s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hmi': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hmi_node build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/install.log --single-version-externally-managed install_data
+[3.120s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.120s]   warnings.warn(msg)
+[3.365s] running egg_info
+[3.410s] writing ../../build/hmi_node/hmi_node.egg-info/PKG-INFO
+[3.414s] writing dependency_links to ../../build/hmi_node/hmi_node.egg-info/dependency_links.txt
+[3.415s] writing requirements to ../../build/hmi_node/hmi_node.egg-info/requires.txt
+[3.415s] writing top-level names to ../../build/hmi_node/hmi_node.egg-info/top_level.txt
+[3.495s] reading manifest file '../../build/hmi_node/hmi_node.egg-info/SOURCES.txt'
+[3.497s] writing manifest file '../../build/hmi_node/hmi_node.egg-info/SOURCES.txt'
+[3.498s] running build
+[3.498s] running build_py
+[3.499s] copying hmi_node/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build/lib/hmi_node
+[3.501s] running install
+[3.511s] running install_lib
+[3.558s] running install_data
+[3.559s] copying resource/hmi_node -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/ament_index/resource_index/packages
+[3.560s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/share/hmi_node
+[3.560s] running install_egg_info
+[3.604s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages/hmi_node-0.0.0-py3.12.egg-info' (and everything under it)
+[3.606s] Copying ../../build/hmi_node/hmi_node.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages/hmi_node-0.0.0-py3.12.egg-info
+[3.609s] running install_scripts
+[3.837s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/install.log'
+[3.881s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hmi' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hmi_node/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hmi_node build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hmi_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/namste/namste.egg-info
+writing ../../build/namste/namste.egg-info/PKG-INFO
+writing dependency_links to ../../build/namste/namste.egg-info/dependency_links.txt
+writing requirements to ../../build/namste/namste.egg-info/requires.txt
+writing top-level names to ../../build/namste/namste.egg-info/top_level.txt
+writing manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+reading manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+writing manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+copying namste/namaste.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+copying namste/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+running install
+running install_lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste/namaste.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste/namaste.py to namaste.cpython-312.pyc
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/ament_index/resource_index/packages
+copying resource/namste -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/namste
+running install_egg_info
+Copying ../../build/namste/namste.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/install.log'

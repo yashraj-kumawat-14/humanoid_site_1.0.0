@@ -1,0 +1,33 @@
+[2.343s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/namaste': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/namste build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/install.log --single-version-externally-managed install_data
+[2.656s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.656s]   warnings.warn(msg)
+[2.858s] running egg_info
+[2.898s] creating ../../build/namste/namste.egg-info
+[2.899s] writing ../../build/namste/namste.egg-info/PKG-INFO
+[2.899s] writing dependency_links to ../../build/namste/namste.egg-info/dependency_links.txt
+[2.899s] writing requirements to ../../build/namste/namste.egg-info/requires.txt
+[2.900s] writing top-level names to ../../build/namste/namste.egg-info/top_level.txt
+[2.900s] writing manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+[2.974s] reading manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+[2.975s] writing manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+[2.975s] running build
+[2.976s] running build_py
+[2.976s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+[2.976s] copying namste/namaste.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+[2.976s] copying namste/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+[2.977s] running install
+[2.985s] running install_lib
+[3.015s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste
+[3.015s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste/namaste.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste
+[3.015s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste
+[3.016s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste/namaste.py to namaste.cpython-312.pyc
+[3.017s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste/__init__.py to __init__.cpython-312.pyc
+[3.017s] running install_data
+[3.018s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/ament_index/resource_index/packages
+[3.018s] copying resource/namste -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/ament_index/resource_index/packages
+[3.018s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/namste
+[3.018s] running install_egg_info
+[3.052s] Copying ../../build/namste/namste.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste-0.0.0-py3.12.egg-info
+[3.054s] running install_scripts
+[3.237s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/install.log'
+[3.290s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/namaste' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/namste build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/install.log --single-version-externally-managed install_data

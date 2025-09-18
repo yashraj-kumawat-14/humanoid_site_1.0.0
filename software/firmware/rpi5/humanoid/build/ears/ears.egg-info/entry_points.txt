@@ -1,0 +1,2 @@
+[console_scripts]
+listen = ears.listen_with_vosk:main

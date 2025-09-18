@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/yantrigo/miniconda3/envs/humanoid/bin/python3.12
 # EASY-INSTALL-ENTRY-SCRIPT: 'brain==0.0.0','console_scripts','brain'
 import re
 import sys

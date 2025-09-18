@@ -1,0 +1,27 @@
+[2.016s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/test_speak': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_speak build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/install.log --single-version-externally-managed install_data
+[2.484s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.484s]   warnings.warn(msg)
+[2.779s] running egg_info
+[2.823s] writing ../../build/test_speak/test_speak.egg-info/PKG-INFO
+[2.824s] writing dependency_links to ../../build/test_speak/test_speak.egg-info/dependency_links.txt
+[2.825s] writing entry points to ../../build/test_speak/test_speak.egg-info/entry_points.txt
+[2.826s] writing requirements to ../../build/test_speak/test_speak.egg-info/requires.txt
+[2.826s] writing top-level names to ../../build/test_speak/test_speak.egg-info/top_level.txt
+[2.915s] reading manifest file '../../build/test_speak/test_speak.egg-info/SOURCES.txt'
+[2.917s] writing manifest file '../../build/test_speak/test_speak.egg-info/SOURCES.txt'
+[2.919s] running build
+[2.919s] running build_py
+[2.920s] copying test_speak/test_speak.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/build/lib/test_speak
+[2.920s] copying test_speak/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/build/lib/test_speak
+[2.920s] running install
+[2.932s] running install_lib
+[2.984s] running install_data
+[2.984s] copying resource/test_speak -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/share/ament_index/resource_index/packages
+[2.985s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/share/test_speak
+[2.985s] running install_egg_info
+[3.033s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages/test_speak-0.0.0-py3.12.egg-info' (and everything under it)
+[3.033s] Copying ../../build/test_speak/test_speak.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages/test_speak-0.0.0-py3.12.egg-info
+[3.036s] running install_scripts
+[3.229s] Installing test_speak script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/test_speak
+[3.230s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/install.log'
+[3.292s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/test_speak' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_speak build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/install.log --single-version-externally-managed install_data

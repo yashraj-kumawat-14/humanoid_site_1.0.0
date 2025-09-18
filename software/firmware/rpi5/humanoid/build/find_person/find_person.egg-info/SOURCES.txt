@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/find_person/find_person.egg-info/PKG-INFO
+../../build/find_person/find_person.egg-info/SOURCES.txt
+../../build/find_person/find_person.egg-info/dependency_links.txt
+../../build/find_person/find_person.egg-info/requires.txt
+../../build/find_person/find_person.egg-info/top_level.txt
+../../build/find_person/find_person.egg-info/zip-safe
+find_person/__init__.py
+find_person/find_person.py
+resource/find_person
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

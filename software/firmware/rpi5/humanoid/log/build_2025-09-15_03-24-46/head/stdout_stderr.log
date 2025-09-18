@@ -1,0 +1,28 @@
+/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/head/head.egg-info
+writing ../../build/head/head.egg-info/PKG-INFO
+writing dependency_links to ../../build/head/head.egg-info/dependency_links.txt
+writing requirements to ../../build/head/head.egg-info/requires.txt
+writing top-level names to ../../build/head/head.egg-info/top_level.txt
+writing manifest file '../../build/head/head.egg-info/SOURCES.txt'
+reading manifest file '../../build/head/head.egg-info/SOURCES.txt'
+writing manifest file '../../build/head/head.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/build/lib/head
+copying head/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/build/lib/head
+running install
+running install_lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages/head
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/build/lib/head/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages/head
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages/head/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/share/ament_index/resource_index/packages
+copying resource/head -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/share/head
+running install_egg_info
+Copying ../../build/head/head.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/head/lib/python3.12/site-packages/head-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/head/install.log'

@@ -1,0 +1,25 @@
+[3.100s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/namaste': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/namste build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/install.log --single-version-externally-managed install_data
+[3.625s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.625s]   warnings.warn(msg)
+[3.943s] running egg_info
+[3.993s] writing ../../build/namste/namste.egg-info/PKG-INFO
+[3.995s] writing dependency_links to ../../build/namste/namste.egg-info/dependency_links.txt
+[3.996s] writing requirements to ../../build/namste/namste.egg-info/requires.txt
+[3.997s] writing top-level names to ../../build/namste/namste.egg-info/top_level.txt
+[4.101s] reading manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+[4.105s] writing manifest file '../../build/namste/namste.egg-info/SOURCES.txt'
+[4.105s] running build
+[4.106s] running build_py
+[4.107s] copying namste/namaste.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+[4.108s] copying namste/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build/lib/namste
+[4.109s] running install
+[4.124s] running install_lib
+[4.174s] running install_data
+[4.175s] copying resource/namste -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/ament_index/resource_index/packages
+[4.176s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/share/namste
+[4.177s] running install_egg_info
+[4.227s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste-0.0.0-py3.12.egg-info' (and everything under it)
+[4.234s] Copying ../../build/namste/namste.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages/namste-0.0.0-py3.12.egg-info
+[4.234s] running install_scripts
+[4.478s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/install.log'
+[4.555s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/namaste' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/namste/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/namste build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/namste/install.log --single-version-externally-managed install_data

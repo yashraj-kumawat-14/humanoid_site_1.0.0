@@ -2,3 +2,5 @@
 software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/**/*
 !software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/**/.gitkeep
 
+!software/firmware/rpi5/humanoid/src/mouth/ears/ears/vosk_models/**/*
+!software/firmware/rpi5/humanoid/src/mouth/ears/ears/vosk_models/**/.gitkeep

@@ -1,0 +1,35 @@
+[2.122s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/mouth': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mouth build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/install.log --single-version-externally-managed install_data
+[2.489s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.490s]   warnings.warn(msg)
+[2.666s] running egg_info
+[2.695s] creating ../../build/mouth/mouth.egg-info
+[2.695s] writing ../../build/mouth/mouth.egg-info/PKG-INFO
+[2.696s] writing dependency_links to ../../build/mouth/mouth.egg-info/dependency_links.txt
+[2.696s] writing entry points to ../../build/mouth/mouth.egg-info/entry_points.txt
+[2.696s] writing requirements to ../../build/mouth/mouth.egg-info/requires.txt
+[2.697s] writing top-level names to ../../build/mouth/mouth.egg-info/top_level.txt
+[2.697s] writing manifest file '../../build/mouth/mouth.egg-info/SOURCES.txt'
+[2.765s] reading manifest file '../../build/mouth/mouth.egg-info/SOURCES.txt'
+[2.766s] writing manifest file '../../build/mouth/mouth.egg-info/SOURCES.txt'
+[2.766s] running build
+[2.767s] running build_py
+[2.767s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/build/lib/mouth
+[2.767s] copying mouth/speak_with_piperTTS.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/build/lib/mouth
+[2.767s] copying mouth/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/build/lib/mouth
+[2.768s] running install
+[2.776s] running install_lib
+[2.804s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages/mouth
+[2.804s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/build/lib/mouth/speak_with_piperTTS.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages/mouth
+[2.805s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/build/lib/mouth/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages/mouth
+[2.805s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages/mouth/speak_with_piperTTS.py to speak_with_piperTTS.cpython-312.pyc
+[2.807s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages/mouth/__init__.py to __init__.cpython-312.pyc
+[2.807s] running install_data
+[2.808s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/share/ament_index/resource_index/packages
+[2.808s] copying resource/mouth -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/share/ament_index/resource_index/packages
+[2.808s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/share/mouth
+[2.809s] running install_egg_info
+[2.846s] Copying ../../build/mouth/mouth.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages/mouth-0.0.0-py3.12.egg-info
+[2.848s] running install_scripts
+[3.073s] Installing speak script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/mouth
+[3.073s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/install.log'
+[3.134s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/mouth' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/mouth/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mouth build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/mouth/install.log --single-version-externally-managed install_data

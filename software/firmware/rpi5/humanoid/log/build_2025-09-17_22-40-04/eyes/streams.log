@@ -1,0 +1,25 @@
+[2.183s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/eyes': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eyes build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/install.log --single-version-externally-managed install_data
+[2.780s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.780s]   warnings.warn(msg)
+[3.218s] running egg_info
+[3.263s] writing ../../build/eyes/eyes.egg-info/PKG-INFO
+[3.267s] writing dependency_links to ../../build/eyes/eyes.egg-info/dependency_links.txt
+[3.267s] writing requirements to ../../build/eyes/eyes.egg-info/requires.txt
+[3.267s] writing top-level names to ../../build/eyes/eyes.egg-info/top_level.txt
+[3.426s] reading manifest file '../../build/eyes/eyes.egg-info/SOURCES.txt'
+[3.435s] writing manifest file '../../build/eyes/eyes.egg-info/SOURCES.txt'
+[3.436s] running build
+[3.437s] running build_py
+[3.437s] copying eyes/see.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build/lib/eyes
+[3.438s] copying eyes/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build/lib/eyes
+[3.439s] running install
+[3.457s] running install_lib
+[3.561s] running install_data
+[3.564s] copying resource/eyes -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/ament_index/resource_index/packages
+[3.565s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes
+[3.565s] running install_egg_info
+[3.639s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes-0.0.0-py3.12.egg-info' (and everything under it)
+[3.646s] Copying ../../build/eyes/eyes.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes-0.0.0-py3.12.egg-info
+[3.653s] running install_scripts
+[4.059s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/install.log'
+[4.206s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/eyes' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/eyes build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/install.log --single-version-externally-managed install_data

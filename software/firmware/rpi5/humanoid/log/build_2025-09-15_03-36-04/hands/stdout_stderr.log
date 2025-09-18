@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/hands/hands.egg-info/PKG-INFO
+writing dependency_links to ../../build/hands/hands.egg-info/dependency_links.txt
+writing requirements to ../../build/hands/hands.egg-info/requires.txt
+writing top-level names to ../../build/hands/hands.egg-info/top_level.txt
+reading manifest file '../../build/hands/hands.egg-info/SOURCES.txt'
+writing manifest file '../../build/hands/hands.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hands/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/build/lib/hands
+running install
+running install_lib
+running install_data
+copying resource/hands -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/share/hands
+running install_egg_info
+removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/lib/python3.12/site-packages/hands-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/hands/hands.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/lib/python3.12/site-packages/hands-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/install.log'
+/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)

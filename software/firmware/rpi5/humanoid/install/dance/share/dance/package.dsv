@@ -1,0 +1,6 @@
+source;share/dance/hook/pythonpath.ps1
+source;share/dance/hook/pythonpath.dsv
+source;share/dance/hook/pythonpath.sh
+source;share/dance/hook/ament_prefix_path.ps1
+source;share/dance/hook/ament_prefix_path.dsv
+source;share/dance/hook/ament_prefix_path.sh

@@ -1,0 +1,25 @@
+[2.752s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/legs': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/legs/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/legs build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/install.log --single-version-externally-managed install_data
+[3.107s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.108s]   warnings.warn(msg)
+[3.381s] running egg_info
+[3.424s] writing ../../build/legs/legs.egg-info/PKG-INFO
+[3.425s] writing dependency_links to ../../build/legs/legs.egg-info/dependency_links.txt
+[3.426s] writing requirements to ../../build/legs/legs.egg-info/requires.txt
+[3.426s] writing top-level names to ../../build/legs/legs.egg-info/top_level.txt
+[3.519s] reading manifest file '../../build/legs/legs.egg-info/SOURCES.txt'
+[3.522s] writing manifest file '../../build/legs/legs.egg-info/SOURCES.txt'
+[3.522s] running build
+[3.523s] running build_py
+[3.524s] copying legs/legs.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/build/lib/legs
+[3.524s] copying legs/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/build/lib/legs
+[3.525s] running install
+[3.537s] running install_lib
+[3.588s] running install_data
+[3.588s] copying resource/legs -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/legs/share/ament_index/resource_index/packages
+[3.589s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/legs/share/legs
+[3.589s] running install_egg_info
+[3.630s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/legs/lib/python3.12/site-packages/legs-0.0.0-py3.12.egg-info' (and everything under it)
+[3.632s] Copying ../../build/legs/legs.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/legs/lib/python3.12/site-packages/legs-0.0.0-py3.12.egg-info
+[3.633s] running install_scripts
+[3.834s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/install.log'
+[3.904s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/legs' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/legs/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/legs build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/legs/install.log --single-version-externally-managed install_data

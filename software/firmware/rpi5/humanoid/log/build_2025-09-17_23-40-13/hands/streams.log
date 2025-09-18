@@ -1,0 +1,24 @@
+[3.223s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hands': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hands build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/install.log --single-version-externally-managed install_data
+[3.589s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.589s]   warnings.warn(msg)
+[3.864s] running egg_info
+[3.910s] writing ../../build/hands/hands.egg-info/PKG-INFO
+[3.912s] writing dependency_links to ../../build/hands/hands.egg-info/dependency_links.txt
+[3.913s] writing requirements to ../../build/hands/hands.egg-info/requires.txt
+[3.913s] writing top-level names to ../../build/hands/hands.egg-info/top_level.txt
+[3.997s] reading manifest file '../../build/hands/hands.egg-info/SOURCES.txt'
+[4.000s] writing manifest file '../../build/hands/hands.egg-info/SOURCES.txt'
+[4.000s] running build
+[4.001s] running build_py
+[4.002s] copying hands/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/build/lib/hands
+[4.002s] running install
+[4.014s] running install_lib
+[4.073s] running install_data
+[4.074s] copying resource/hands -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/share/ament_index/resource_index/packages
+[4.074s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/share/hands
+[4.075s] running install_egg_info
+[4.123s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/lib/python3.12/site-packages/hands-0.0.0-py3.12.egg-info' (and everything under it)
+[4.125s] Copying ../../build/hands/hands.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/lib/python3.12/site-packages/hands-0.0.0-py3.12.egg-info
+[4.127s] running install_scripts
+[4.389s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/install.log'
+[4.493s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/hands' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/hands/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hands build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/hands/install.log --single-version-externally-managed install_data

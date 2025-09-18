@@ -1,0 +1,29 @@
+[2.742s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ears build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log --single-version-externally-managed install_data
+[3.176s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.176s]   warnings.warn(msg)
+[3.454s] running egg_info
+[3.500s] writing ../../build/ears/ears.egg-info/PKG-INFO
+[3.500s] writing dependency_links to ../../build/ears/ears.egg-info/dependency_links.txt
+[3.501s] writing entry points to ../../build/ears/ears.egg-info/entry_points.txt
+[3.501s] writing requirements to ../../build/ears/ears.egg-info/requires.txt
+[3.501s] writing top-level names to ../../build/ears/ears.egg-info/top_level.txt
+[3.602s] reading manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+[3.604s] writing manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+[3.604s] running build
+[3.604s] running build_py
+[3.605s] copying ears/listen_with_vosk.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears
+[3.606s] copying ears/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears
+[3.607s] running install
+[3.617s] running install_lib
+[3.664s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears/listen_with_vosk.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears
+[3.667s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears/listen_with_vosk.py to listen_with_vosk.cpython-312.pyc
+[3.670s] running install_data
+[3.671s] copying resource/ears -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ament_index/resource_index/packages
+[3.673s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears
+[3.673s] running install_egg_info
+[3.718s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears-0.0.0-py3.12.egg-info' (and everything under it)
+[3.723s] Copying ../../build/ears/ears.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears-0.0.0-py3.12.egg-info
+[3.723s] running install_scripts
+[3.980s] Installing listen script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/ears
+[3.980s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log'
+[4.052s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ears build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log --single-version-externally-managed install_data

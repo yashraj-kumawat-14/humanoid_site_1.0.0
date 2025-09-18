@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/conversation/conversation.egg-info
+writing ../../build/conversation/conversation.egg-info/PKG-INFO
+writing dependency_links to ../../build/conversation/conversation.egg-info/dependency_links.txt
+writing entry points to ../../build/conversation/conversation.egg-info/entry_points.txt
+writing requirements to ../../build/conversation/conversation.egg-info/requires.txt
+writing top-level names to ../../build/conversation/conversation.egg-info/top_level.txt
+writing manifest file '../../build/conversation/conversation.egg-info/SOURCES.txt'
+reading manifest file '../../build/conversation/conversation.egg-info/SOURCES.txt'
+writing manifest file '../../build/conversation/conversation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation
+copying conversation/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation
+copying conversation/conversation.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation
+running install
+running install_lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation/conversation.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation/conversation.py to conversation.cpython-312.pyc
+running install_data
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/ament_index/resource_index/packages
+copying resource/conversation -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation
+running install_egg_info
+Copying ../../build/conversation/conversation.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing conversation script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/conversation
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/install.log'

@@ -8,6 +8,7 @@ setup.py
 ../../build/legs/legs.egg-info/top_level.txt
 ../../build/legs/legs.egg-info/zip-safe
 legs/__init__.py
+legs/legs.py
 resource/legs
 test/test_copyright.py
 test/test_flake8.py

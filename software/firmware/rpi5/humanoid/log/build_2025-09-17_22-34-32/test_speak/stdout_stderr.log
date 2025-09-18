@@ -1,0 +1,27 @@
+/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/test_speak/test_speak.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_speak/test_speak.egg-info/dependency_links.txt
+writing entry points to ../../build/test_speak/test_speak.egg-info/entry_points.txt
+writing requirements to ../../build/test_speak/test_speak.egg-info/requires.txt
+writing top-level names to ../../build/test_speak/test_speak.egg-info/top_level.txt
+reading manifest file '../../build/test_speak/test_speak.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_speak/test_speak.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_speak/test_speak.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/build/lib/test_speak
+copying test_speak/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/build/lib/test_speak
+running install
+running install_lib
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/build/lib/test_speak/test_speak.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages/test_speak
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages/test_speak/test_speak.py to test_speak.cpython-312.pyc
+running install_data
+copying resource/test_speak -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/share/test_speak
+running install_egg_info
+removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages/test_speak-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/test_speak/test_speak.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/python3.12/site-packages/test_speak-0.0.0-py3.12.egg-info
+running install_scripts
+Installing test_speak script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/test_speak/lib/test_speak
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/test_speak/install.log'

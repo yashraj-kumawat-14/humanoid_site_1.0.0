@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/eyes/eyes.egg-info/PKG-INFO
+../../build/eyes/eyes.egg-info/SOURCES.txt
+../../build/eyes/eyes.egg-info/dependency_links.txt
+../../build/eyes/eyes.egg-info/requires.txt
+../../build/eyes/eyes.egg-info/top_level.txt
+../../build/eyes/eyes.egg-info/zip-safe
+eyes/__init__.py
+eyes/see.py
+resource/eyes
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

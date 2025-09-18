@@ -1,0 +1,29 @@
+[3.712s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/conversation': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conversation build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/install.log --single-version-externally-managed install_data
+[4.096s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[4.096s]   warnings.warn(msg)
+[4.371s] running egg_info
+[4.410s] writing ../../build/conversation/conversation.egg-info/PKG-INFO
+[4.411s] writing dependency_links to ../../build/conversation/conversation.egg-info/dependency_links.txt
+[4.411s] writing entry points to ../../build/conversation/conversation.egg-info/entry_points.txt
+[4.411s] writing requirements to ../../build/conversation/conversation.egg-info/requires.txt
+[4.412s] writing top-level names to ../../build/conversation/conversation.egg-info/top_level.txt
+[4.499s] reading manifest file '../../build/conversation/conversation.egg-info/SOURCES.txt'
+[4.507s] writing manifest file '../../build/conversation/conversation.egg-info/SOURCES.txt'
+[4.507s] running build
+[4.507s] running build_py
+[4.508s] copying conversation/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation
+[4.508s] copying conversation/conversation.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation
+[4.508s] running install
+[4.518s] running install_lib
+[4.561s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build/lib/conversation/conversation.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation
+[4.562s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation/conversation.py to conversation.cpython-312.pyc
+[4.565s] running install_data
+[4.568s] copying resource/conversation -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/ament_index/resource_index/packages
+[4.568s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/share/conversation
+[4.568s] running install_egg_info
+[4.611s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation-0.0.0-py3.12.egg-info' (and everything under it)
+[4.612s] Copying ../../build/conversation/conversation.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages/conversation-0.0.0-py3.12.egg-info
+[4.613s] running install_scripts
+[4.848s] Installing conversation script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/conversation
+[4.849s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/install.log'
+[5.356s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/conversation' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/conversation/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/conversation build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/conversation/install.log --single-version-externally-managed install_data

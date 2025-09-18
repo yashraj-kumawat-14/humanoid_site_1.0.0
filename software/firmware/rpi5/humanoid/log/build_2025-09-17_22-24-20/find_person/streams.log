@@ -1,0 +1,25 @@
+[2.214s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/find_person': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/find_person build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/install.log --single-version-externally-managed install_data
+[2.574s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.575s]   warnings.warn(msg)
+[2.864s] running egg_info
+[2.915s] writing ../../build/find_person/find_person.egg-info/PKG-INFO
+[2.918s] writing dependency_links to ../../build/find_person/find_person.egg-info/dependency_links.txt
+[2.919s] writing requirements to ../../build/find_person/find_person.egg-info/requires.txt
+[2.919s] writing top-level names to ../../build/find_person/find_person.egg-info/top_level.txt
+[3.063s] reading manifest file '../../build/find_person/find_person.egg-info/SOURCES.txt'
+[3.067s] writing manifest file '../../build/find_person/find_person.egg-info/SOURCES.txt'
+[3.068s] running build
+[3.068s] running build_py
+[3.069s] copying find_person/find_person.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/build/lib/find_person
+[3.072s] copying find_person/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/build/lib/find_person
+[3.075s] running install
+[3.104s] running install_lib
+[3.170s] running install_data
+[3.170s] copying resource/find_person -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/ament_index/resource_index/packages
+[3.176s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/share/find_person
+[3.176s] running install_egg_info
+[3.278s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/python3.12/site-packages/find_person-0.0.0-py3.12.egg-info' (and everything under it)
+[3.281s] Copying ../../build/find_person/find_person.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/python3.12/site-packages/find_person-0.0.0-py3.12.egg-info
+[3.286s] running install_scripts
+[3.644s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/install.log'
+[3.801s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/find_person' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/find_person/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/find_person build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/find_person/install.log --single-version-externally-managed install_data

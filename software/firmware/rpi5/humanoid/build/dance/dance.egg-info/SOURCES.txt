@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dance/dance.egg-info/PKG-INFO
+../../build/dance/dance.egg-info/SOURCES.txt
+../../build/dance/dance.egg-info/dependency_links.txt
+../../build/dance/dance.egg-info/requires.txt
+../../build/dance/dance.egg-info/top_level.txt
+../../build/dance/dance.egg-info/zip-safe
+dance/__init__.py
+dance/dance.py
+resource/dance
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

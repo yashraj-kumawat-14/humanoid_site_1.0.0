@@ -1,0 +1,25 @@
+[2.823s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_recognition build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log --single-version-externally-managed install_data
+[3.315s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.315s]   warnings.warn(msg)
+[3.617s] running egg_info
+[3.662s] writing ../../build/face_recognition/face_recognition.egg-info/PKG-INFO
+[3.664s] writing dependency_links to ../../build/face_recognition/face_recognition.egg-info/dependency_links.txt
+[3.665s] writing requirements to ../../build/face_recognition/face_recognition.egg-info/requires.txt
+[3.665s] writing top-level names to ../../build/face_recognition/face_recognition.egg-info/top_level.txt
+[3.765s] reading manifest file '../../build/face_recognition/face_recognition.egg-info/SOURCES.txt'
+[3.769s] writing manifest file '../../build/face_recognition/face_recognition.egg-info/SOURCES.txt'
+[3.770s] running build
+[3.772s] running build_py
+[3.773s] copying face_recognition/face_recognition.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build/lib/face_recognition
+[3.773s] copying face_recognition/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build/lib/face_recognition
+[3.774s] running install
+[3.784s] running install_lib
+[3.833s] running install_data
+[3.834s] copying resource/face_recognition -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/ament_index/resource_index/packages
+[3.834s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/share/face_recognition
+[3.837s] running install_egg_info
+[3.895s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages/face_recognition-0.0.0-py3.12.egg-info' (and everything under it)
+[3.896s] Copying ../../build/face_recognition/face_recognition.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages/face_recognition-0.0.0-py3.12.egg-info
+[3.902s] running install_scripts
+[4.236s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log'
+[4.367s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/face_recognition' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/face_recognition/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_recognition build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/face_recognition/install.log --single-version-externally-managed install_data

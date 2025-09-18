@@ -1,0 +1,25 @@
+[3.505s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/dance': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dance build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/install.log --single-version-externally-managed install_data
+[4.141s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[4.141s]   warnings.warn(msg)
+[4.739s] running egg_info
+[4.852s] writing ../../build/dance/dance.egg-info/PKG-INFO
+[4.854s] writing dependency_links to ../../build/dance/dance.egg-info/dependency_links.txt
+[4.856s] writing requirements to ../../build/dance/dance.egg-info/requires.txt
+[4.857s] writing top-level names to ../../build/dance/dance.egg-info/top_level.txt
+[5.043s] reading manifest file '../../build/dance/dance.egg-info/SOURCES.txt'
+[5.048s] writing manifest file '../../build/dance/dance.egg-info/SOURCES.txt'
+[5.049s] running build
+[5.050s] running build_py
+[5.051s] copying dance/dance.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build/lib/dance
+[5.052s] copying dance/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build/lib/dance
+[5.053s] running install
+[5.075s] running install_lib
+[5.140s] running install_data
+[5.142s] copying resource/dance -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/ament_index/resource_index/packages
+[5.142s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance
+[5.142s] running install_egg_info
+[5.199s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance-0.0.0-py3.12.egg-info' (and everything under it)
+[5.202s] Copying ../../build/dance/dance.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance-0.0.0-py3.12.egg-info
+[5.205s] running install_scripts
+[5.462s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/install.log'
+[6.500s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/dance' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dance build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/install.log --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/dance/dance.egg-info
+writing ../../build/dance/dance.egg-info/PKG-INFO
+writing dependency_links to ../../build/dance/dance.egg-info/dependency_links.txt
+writing requirements to ../../build/dance/dance.egg-info/requires.txt
+writing top-level names to ../../build/dance/dance.egg-info/top_level.txt
+writing manifest file '../../build/dance/dance.egg-info/SOURCES.txt'
+reading manifest file '../../build/dance/dance.egg-info/SOURCES.txt'
+writing manifest file '../../build/dance/dance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build/lib/dance
+copying dance/dance.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build/lib/dance
+copying dance/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build/lib/dance
+running install
+running install_lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build/lib/dance/dance.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/build/lib/dance/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance/dance.py to dance.cpython-312.pyc
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/ament_index/resource_index/packages
+copying resource/dance -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/share/dance
+running install_egg_info
+Copying ../../build/dance/dance.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/dance/lib/python3.12/site-packages/dance-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/dance/install.log'

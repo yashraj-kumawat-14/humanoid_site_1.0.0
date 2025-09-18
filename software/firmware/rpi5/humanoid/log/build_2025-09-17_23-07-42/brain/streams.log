@@ -1,0 +1,27 @@
+[2.856s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data
+[3.398s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.399s]   warnings.warn(msg)
+[3.763s] running egg_info
+[3.854s] writing ../../build/brain/brain.egg-info/PKG-INFO
+[3.855s] writing dependency_links to ../../build/brain/brain.egg-info/dependency_links.txt
+[3.856s] writing entry points to ../../build/brain/brain.egg-info/entry_points.txt
+[3.858s] writing requirements to ../../build/brain/brain.egg-info/requires.txt
+[3.862s] writing top-level names to ../../build/brain/brain.egg-info/top_level.txt
+[4.094s] reading manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[4.100s] writing manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[4.101s] running build
+[4.101s] running build_py
+[4.105s] copying brain/brain.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build/lib/brain
+[4.106s] copying brain/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build/lib/brain
+[4.106s] running install
+[4.143s] running install_lib
+[4.259s] running install_data
+[4.261s] copying resource/brain -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/ament_index/resource_index/packages
+[4.264s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain
+[4.266s] running install_egg_info
+[4.365s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages/brain-0.0.0-py3.12.egg-info' (and everything under it)
+[4.368s] Copying ../../build/brain/brain.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages/brain-0.0.0-py3.12.egg-info
+[4.379s] running install_scripts
+[4.759s] Installing brain script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/brain
+[4.760s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log'
+[5.060s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data

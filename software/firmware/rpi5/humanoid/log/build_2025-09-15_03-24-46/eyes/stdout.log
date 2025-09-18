@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/eyes/eyes.egg-info
+writing ../../build/eyes/eyes.egg-info/PKG-INFO
+writing dependency_links to ../../build/eyes/eyes.egg-info/dependency_links.txt
+writing requirements to ../../build/eyes/eyes.egg-info/requires.txt
+writing top-level names to ../../build/eyes/eyes.egg-info/top_level.txt
+writing manifest file '../../build/eyes/eyes.egg-info/SOURCES.txt'
+reading manifest file '../../build/eyes/eyes.egg-info/SOURCES.txt'
+writing manifest file '../../build/eyes/eyes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build/lib/eyes
+copying eyes/see.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build/lib/eyes
+copying eyes/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build/lib/eyes
+running install
+running install_lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build/lib/eyes/see.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/build/lib/eyes/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes/see.py to see.cpython-312.pyc
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/ament_index/resource_index/packages
+copying resource/eyes -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/share/eyes
+running install_egg_info
+Copying ../../build/eyes/eyes.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/eyes/lib/python3.12/site-packages/eyes-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/eyes/install.log'

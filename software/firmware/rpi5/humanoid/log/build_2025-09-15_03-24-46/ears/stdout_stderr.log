@@ -1,0 +1,33 @@
+/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/ears/ears.egg-info
+writing ../../build/ears/ears.egg-info/PKG-INFO
+writing dependency_links to ../../build/ears/ears.egg-info/dependency_links.txt
+writing entry points to ../../build/ears/ears.egg-info/entry_points.txt
+writing requirements to ../../build/ears/ears.egg-info/requires.txt
+writing top-level names to ../../build/ears/ears.egg-info/top_level.txt
+writing manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+reading manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+writing manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears
+copying ears/listen_with_vosk.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears
+copying ears/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears
+running install
+running install_lib
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears/listen_with_vosk.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears
+copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears/listen_with_vosk.py to listen_with_vosk.cpython-312.pyc
+byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ament_index/resource_index/packages
+copying resource/ears -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears
+running install_egg_info
+Copying ../../build/ears/ears.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears-0.0.0-py3.12.egg-info
+running install_scripts
+Installing listen script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/ears
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log'

@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools', "sounddevice"],
+    install_requires=['setuptools', "sounddevice", "numpy"],
     zip_safe=True,
     maintainer='yashraj-kumawat-14',
     maintainer_email='yashrajkumawat7357@gmail.com',

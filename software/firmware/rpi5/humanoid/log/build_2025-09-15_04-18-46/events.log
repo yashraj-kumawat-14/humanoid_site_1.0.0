@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.001187] (brain) JobQueued: {'identifier': 'brain', 'dependencies': OrderedDict()}
+[0.001295] (conversation) JobQueued: {'identifier': 'conversation', 'dependencies': OrderedDict()}
+[0.001364] (dance) JobQueued: {'identifier': 'dance', 'dependencies': OrderedDict()}
+[0.001413] (ears) JobQueued: {'identifier': 'ears', 'dependencies': OrderedDict()}
+[0.001464] (eyes) JobQueued: {'identifier': 'eyes', 'dependencies': OrderedDict()}
+[0.001518] (face_recognition) JobQueued: {'identifier': 'face_recognition', 'dependencies': OrderedDict()}
+[0.001561] (find_person) JobQueued: {'identifier': 'find_person', 'dependencies': OrderedDict()}
+[0.001614] (hands) JobQueued: {'identifier': 'hands', 'dependencies': OrderedDict()}
+[0.001659] (head) JobQueued: {'identifier': 'head', 'dependencies': OrderedDict()}
+[0.001721] (hmi_node) JobQueued: {'identifier': 'hmi_node', 'dependencies': OrderedDict()}
+[0.001762] (legs) JobQueued: {'identifier': 'legs', 'dependencies': OrderedDict()}
+[0.001812] (mouth) JobQueued: {'identifier': 'mouth', 'dependencies': OrderedDict()}
+[0.001852] (namste) JobQueued: {'identifier': 'namste', 'dependencies': OrderedDict()}
+[0.001893] (nano_manager_node) JobQueued: {'identifier': 'nano_manager_node', 'dependencies': OrderedDict()}
+[0.001934] (brain) JobStarted: {'identifier': 'brain'}
+[0.033334] (conversation) JobStarted: {'identifier': 'conversation'}
+[0.046396] (dance) JobStarted: {'identifier': 'dance'}
+[0.061782] (ears) JobStarted: {'identifier': 'ears'}
+[0.077447] (eyes) JobStarted: {'identifier': 'eyes'}
+[0.090055] (face_recognition) JobStarted: {'identifier': 'face_recognition'}
+[0.099695] (-) TimerEvent: {}
+[0.104515] (find_person) JobStarted: {'identifier': 'find_person'}
+[0.120647] (hands) JobStarted: {'identifier': 'hands'}
+[0.181374] (brain) JobEnded: {'identifier': 'brain', 'rc': 0}
+[0.199818] (-) TimerEvent: {}
+[0.300237] (-) TimerEvent: {}
+[0.400693] (-) TimerEvent: {}
+[0.501063] (-) TimerEvent: {}
+[0.601627] (-) TimerEvent: {}
+[0.701980] (-) TimerEvent: {}
+[0.802453] (-) TimerEvent: {}
+[0.902867] (-) TimerEvent: {}
+[1.003220] (-) TimerEvent: {}
+[1.103564] (-) TimerEvent: {}
+[1.203904] (-) TimerEvent: {}
+[1.304287] (-) TimerEvent: {}
+[1.404679] (-) TimerEvent: {}
+[1.505823] (-) TimerEvent: {}
+[1.606507] (-) TimerEvent: {}
+[1.706902] (-) TimerEvent: {}
+[1.807309] (-) TimerEvent: {}
+[1.907770] (-) TimerEvent: {}
+[2.008102] (-) TimerEvent: {}
+[2.108584] (-) TimerEvent: {}
+[2.172646] (conversation) JobEnded: {'identifier': 'conversation', 'rc': 'SIGINT'}
+[2.175188] (dance) JobEnded: {'identifier': 'dance', 'rc': 'SIGINT'}
+[2.177603] (ears) JobEnded: {'identifier': 'ears', 'rc': 'SIGINT'}
+[2.178654] (eyes) JobEnded: {'identifier': 'eyes', 'rc': 'SIGINT'}
+[2.179446] (face_recognition) JobEnded: {'identifier': 'face_recognition', 'rc': 'SIGINT'}
+[2.180071] (hands) JobEnded: {'identifier': 'hands', 'rc': 'SIGINT'}
+[2.180755] (find_person) JobEnded: {'identifier': 'find_person', 'rc': 'SIGINT'}
+[2.188308] (head) JobSkipped: {'identifier': 'head'}
+[2.188409] (hmi_node) JobSkipped: {'identifier': 'hmi_node'}
+[2.188444] (legs) JobSkipped: {'identifier': 'legs'}
+[2.188474] (mouth) JobSkipped: {'identifier': 'mouth'}
+[2.188502] (namste) JobSkipped: {'identifier': 'namste'}
+[2.188531] (nano_manager_node) JobSkipped: {'identifier': 'nano_manager_node'}
+[2.188560] (-) EventReactorShutdown: {}

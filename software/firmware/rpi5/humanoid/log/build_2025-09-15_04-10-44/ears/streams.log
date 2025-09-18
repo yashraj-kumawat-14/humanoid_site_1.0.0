@@ -1,0 +1,27 @@
+[3.829s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ears build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log --single-version-externally-managed install_data
+[5.385s] running egg_info
+[5.386s] writing ../../build/ears/ears.egg-info/PKG-INFO
+[5.387s] writing dependency_links to ../../build/ears/ears.egg-info/dependency_links.txt
+[5.387s] writing entry points to ../../build/ears/ears.egg-info/entry_points.txt
+[5.388s] writing requirements to ../../build/ears/ears.egg-info/requires.txt
+[5.388s] writing top-level names to ../../build/ears/ears.egg-info/top_level.txt
+[5.388s] reading manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+[5.388s] writing manifest file '../../build/ears/ears.egg-info/SOURCES.txt'
+[5.388s] running build
+[5.389s] running build_py
+[5.389s] copying ears/listen_with_vosk.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears
+[5.389s] copying ears/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build/lib/ears
+[5.389s] running install
+[5.389s] running install_lib
+[5.390s] running install_data
+[5.390s] copying resource/ears -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ament_index/resource_index/packages
+[5.390s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/share/ears
+[5.391s] running install_egg_info
+[5.391s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears-0.0.0-py3.12.egg-info' (and everything under it)
+[5.391s] Copying ../../build/ears/ears.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages/ears-0.0.0-py3.12.egg-info
+[5.391s] running install_scripts
+[5.392s] Installing listen script to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/ears
+[5.392s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log'
+[5.392s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[5.392s]   warnings.warn(msg)
+[5.460s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/ears/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ears build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/ears/install.log --single-version-externally-managed install_data

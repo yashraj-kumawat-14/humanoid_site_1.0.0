@@ -1,0 +1,25 @@
+[2.389s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/utils': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/install.log --single-version-externally-managed install_data
+[2.892s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.892s]   warnings.warn(msg)
+[3.286s] running egg_info
+[3.334s] writing ../../build/utils/utils.egg-info/PKG-INFO
+[3.335s] writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt
+[3.335s] writing requirements to ../../build/utils/utils.egg-info/requires.txt
+[3.336s] writing top-level names to ../../build/utils/utils.egg-info/top_level.txt
+[3.426s] reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[3.429s] writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[3.429s] running build
+[3.429s] running build_py
+[3.429s] copying utils/config_loader.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build/lib/utils
+[3.430s] copying utils/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build/lib/utils
+[3.430s] running install
+[3.444s] running install_lib
+[3.491s] running install_data
+[3.491s] copying resource/utils -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/share/ament_index/resource_index/packages
+[3.492s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/share/utils
+[3.493s] running install_egg_info
+[3.543s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils-0.0.0-py3.12.egg-info' (and everything under it)
+[3.545s] Copying ../../build/utils/utils.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils-0.0.0-py3.12.egg-info
+[3.548s] running install_scripts
+[3.759s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/install.log'
+[3.825s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/utils' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/install.log --single-version-externally-managed install_data

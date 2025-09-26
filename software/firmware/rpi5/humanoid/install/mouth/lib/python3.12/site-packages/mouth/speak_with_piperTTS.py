@@ -6,15 +6,16 @@ import numpy as np
 from piper import PiperVoice
 import re
 import time
+from utils.config_loader import get_config
 
 
 class Speak(Node):
     def __init__(self):
         super().__init__("node_speak")
+        config = get_config()
+        self.model_path = config["piper_model_path"]
 
-        # Default Piper model
-        model_path = "/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/english_models/female/kathleen/en_US-kathleen-low.onnx"
-        self.voice = PiperVoice.load(model_path)
+        self.voice = PiperVoice.load(self.model_path)
         self.current_model = None
 
         self.create_subscription(String, "piper_tts_text", self.speak_callback, 10)

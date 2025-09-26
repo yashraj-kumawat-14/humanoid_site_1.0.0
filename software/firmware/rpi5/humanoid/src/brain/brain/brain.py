@@ -1,10 +1,18 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+import re
+from utils.config_loader import get_config
+import datetime
 
+hindi_months = {
+    1: "जनवरी", 2: "फ़रवरी", 3: "मार्च", 4: "अप्रैल",
+    5: "मई", 6: "जून", 7: "जुलाई", 8: "अगस्त",
+    9: "सितंबर", 10: "अक्टूबर", 11: "नवंबर", 12: "दिसंबर"
+}
 
 class Brain(Node):
-    def __init__(self, name="Vedanshi"):
+    def __init__(self, name="राधा"):
         super().__init__("node_brain")
         self.speaking = False
         self.name = name
@@ -64,6 +72,11 @@ class Brain(Node):
         #self.say(user_text)
 
         # Forward to conversation node
+        if(not user_text.startswith(self.name)):
+            return
+        
+        user_text = re.sub(rf'^\s*{re.escape(self.name)}\s*', '', user_text, count=1)
+        
         prompt_msg = String()
         prompt_msg.data = user_text
         self.pub_conversation.publish(prompt_msg)
@@ -79,44 +92,83 @@ class Brain(Node):
         """Handle actions published by the conversation node."""
         action_name = msg.data.strip()
         if(action_name=="move_forward"):
-            self.say("ok")
             msg = String()
             msg.data = "forward"
             self.legs_pub.publish(msg)
         elif(action_name=="move_backward"):
-            self.say("ok")
             msg = String()
             msg.data = "backward"
             self.legs_pub.publish(msg)
         elif(action_name=="move_left"):
-            self.say("ok")
             msg = String()
             msg.data = "left"
             self.legs_pub.publish(msg)
         elif(action_name=="move_right"):
-            self.say("ok")
             msg = String()
             msg.data = "right"
             self.legs_pub.publish(msg)
         elif(action_name=="stop"):
-            self.say("ok")
             msg = String()
             msg.data = "stop"
             self.legs_pub.publish(msg)
-        elif(action_name=="dance"):
-            self.say("ok")
+        elif(action_name=="do_dance"):
             msg = String()
             msg.data="dance"
             self.dance_pub.publish(msg)
-        elif(action_name=="namaste"):
-            self.say("namaste")
-        elif(action_name=="find_person_yashraj"):
+        elif(action_name=="say_name"):
+            msg = String()
+            msg.data=f"मेरा नाम {self.name} है. मैं आपकी क्या मदद कर सकती हूँ?"
+        elif(action_name=="do_bye"):
+            msg = String()
+            msg.data="bye"
+            # publish to hands
+        elif(action_name=="do_namaste"):
+            pass
+        elif(action_name=="get_date"):
+            now = datetime.datetime.now()
+            day = now.day
+            month = hindi_months[now.month]
+            year = now.year
+            todays_date = f"{day} {month} {year}"
+            text = f"आज {todays_date} है"
+            self.say(text)
+        elif(action_name=="none"):
+            pass
+        elif(action_name=="get_time"):
+            now = datetime.datetime.now()
+            hour_24 = now.hour
+            minute = now.minute
+            
+            if 0 <= hour_24 < 12:
+                period = "सुबह"  # morning
+                hour_12 = hour_24 if hour_24 != 0 else 12
+            elif 12 <= hour_24 < 16:
+                period = "दोपहर"  # afternoon
+                hour_12 = hour_24 - 12 if hour_24 > 12 else 12
+            elif 16 <= hour_24 < 20:
+                period = "शाम"  # evening
+                hour_12 = hour_24 - 12
+            else:
+                period = "रात्रि"  # night
+                hour_12 = hour_24 - 12 if hour_24 > 12 else 12
+                
+            if minute == 0:
+                time_str = f"अभि {hour_12} बजे {period} है"
+            else:
+                time_str = f"अभि {period} के {hour_12} बजकर {minute} मिनट हुए है"
+            self.say(f"{time_str}")
+            
+        elif(action_name=="find_yashraj"):
+            pass
+        elif(action_name=="shutdown"):
             pass
 
 
 def main(args=None):
+    config = get_config()
+    name = config["humanoid_name"]
     rclpy.init(args=args)
-    brain_node = Brain(name="Vedanshi")
+    brain_node = Brain(name=name)
     rclpy.spin(brain_node)
     brain_node.destroy_node()
     rclpy.shutdown()

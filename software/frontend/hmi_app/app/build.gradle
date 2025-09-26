@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+
+    defaultConfig {
+        applicationId "com.yantrigo.hmi"
+        minSdkVersion 15
+        targetSdkVersion 15
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    // no support libraries for pure API 15 HelloWorld
+}
+

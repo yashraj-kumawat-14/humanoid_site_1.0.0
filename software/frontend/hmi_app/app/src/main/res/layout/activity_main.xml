@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#000000">
+
+    <!-- LEFT PANEL -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:background="#111111">
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status : Humanoid Has Initialised"
+            android:textColor="#00FF00"
+            android:background="#222222"
+            android:padding="6dp"
+            android:textStyle="bold"/>
+
+        <!-- You Speak -->
+        <TextView
+            android:id="@+id/tvSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Speak : नमस्ते"
+            android:textColor="#FFFF00"
+            android:background="#000000"
+            android:padding="6dp"/>
+
+        <!-- Current Action -->
+        <TextView
+            android:id="@+id/tvAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Action : None"
+            android:textColor="#00BFFF"
+            android:background="#0000FF"
+            android:padding="6dp"/>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+
+        <!-- Robot Image -->
+<ImageView
+    android:id="@+id/myImageView"
+    android:layout_width="250dp"
+    android:layout_height="500dp"
+    android:src="@android:drawable/ic_menu_gallery"
+    android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <!-- RIGHT PANEL -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:background="#222222">
+
+        <!-- Test Actions Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Actions"
+            android:textColor="#FFFFFF"
+            android:background="#444444"
+            android:padding="4dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnMotion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motion Test"/>
+
+        <Button
+            android:id="@+id/btnNeck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neck Test"/>
+
+        <Button
+            android:id="@+id/btnHands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hands Test"/>
+
+        <Button
+            android:id="@+id/btnSpeech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speech Test"/>
+
+        <Button
+            android:id="@+id/btnEyes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eyes Test"/>
+
+        <!-- Common Actions Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Common Actions"
+            android:textColor="#FFFFFF"
+            android:background="#444444"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnNamaste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Namaste"/>
+            
+        <Button
+            android:id="@+id/btnDance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dance"/>
+        
+        <Button
+            android:id="@+id/btnWishHappyBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wish Happy Birthday"/>
+        
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop"/>
+        
+        <Button
+            android:id="@+id/btnShutdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shutdown"
+            android:background="#FF0000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

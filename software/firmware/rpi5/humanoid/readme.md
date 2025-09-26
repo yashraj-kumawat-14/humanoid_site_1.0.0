@@ -38,3 +38,7 @@ i added time.sleep(4) in speak node before sending finished msg, which removed t
 # Rebuild only your package
 colcon build --packages-select launch_humanoid
 
+# export the config file's path in ~/.bashrc
+export HUMANOID_CONFIG=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/config.json
+
+# i have made local data

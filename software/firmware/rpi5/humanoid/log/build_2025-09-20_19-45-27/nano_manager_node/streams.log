@@ -1,0 +1,24 @@
+[2.079s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/nano_manager_node': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/nano_manager_node/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nano_manager_node build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/install.log --single-version-externally-managed install_data
+[2.587s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.588s]   warnings.warn(msg)
+[3.005s] running egg_info
+[3.090s] writing ../../build/nano_manager_node/nano_manager_node.egg-info/PKG-INFO
+[3.094s] writing dependency_links to ../../build/nano_manager_node/nano_manager_node.egg-info/dependency_links.txt
+[3.094s] writing requirements to ../../build/nano_manager_node/nano_manager_node.egg-info/requires.txt
+[3.095s] writing top-level names to ../../build/nano_manager_node/nano_manager_node.egg-info/top_level.txt
+[3.281s] reading manifest file '../../build/nano_manager_node/nano_manager_node.egg-info/SOURCES.txt'
+[3.284s] writing manifest file '../../build/nano_manager_node/nano_manager_node.egg-info/SOURCES.txt'
+[3.285s] running build
+[3.285s] running build_py
+[3.285s] copying nano_manager_node/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/build/lib/nano_manager_node
+[3.292s] running install
+[3.308s] running install_lib
+[3.392s] running install_data
+[3.395s] copying resource/nano_manager_node -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/nano_manager_node/share/ament_index/resource_index/packages
+[3.403s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/nano_manager_node/share/nano_manager_node
+[3.403s] running install_egg_info
+[3.517s] removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/nano_manager_node/lib/python3.12/site-packages/nano_manager_node-0.0.0-py3.12.egg-info' (and everything under it)
+[3.518s] Copying ../../build/nano_manager_node/nano_manager_node.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/nano_manager_node/lib/python3.12/site-packages/nano_manager_node-0.0.0-py3.12.egg-info
+[3.525s] running install_scripts
+[3.850s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/install.log'
+[4.477s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/nano_manager_node' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/nano_manager_node/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nano_manager_node build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/nano_manager_node/install.log --single-version-externally-managed install_data

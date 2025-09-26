@@ -8,17 +8,18 @@ import json
 import time
 import numpy as np
 import os
-
+from utils.config_loader import get_config
 
 class Listen(Node):
     def __init__(self):
         super().__init__("node_listen")
+        config = get_config()
 
         # ROS publisher
         self.publisher_ = self.create_publisher(String, "listen_with_vosk", 10)
 
         # Default model path
-        default_model_path = "/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears/ears/vosk_models/vosk-model-small-en-us-0.15"
+        default_model_path = config["vosk_model_path"]#"/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears/ears/vosk_models/vosk-model-small-en-us-0.15"
         self.model_path = os.path.expanduser(default_model_path)
         self.model = vosk.Model(self.model_path)
 

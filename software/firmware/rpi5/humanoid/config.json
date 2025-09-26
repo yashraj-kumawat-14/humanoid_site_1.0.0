@@ -1,0 +1,7 @@
+{
+    "piper_model_path":"/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/mouth/mouth/piper_models/hindi_models/female/priyamvada/hi_IN-priyamvada-medium.onnx",
+    "vosk_model_path":"/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/ears/ears/vosk_models/vosk-model-small-hi-0.22",
+    "OPENAI_API_KEY":"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",
+    "humanoid_name":"गीता",
+    "local_data_path":"/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/local_data/data.json"
+}

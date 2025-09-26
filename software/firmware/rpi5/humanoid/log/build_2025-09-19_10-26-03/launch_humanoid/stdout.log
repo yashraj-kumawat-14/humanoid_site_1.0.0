@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/launch_humanoid/launch_humanoid.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_humanoid/launch_humanoid.egg-info/dependency_links.txt
+writing requirements to ../../build/launch_humanoid/launch_humanoid.egg-info/requires.txt
+writing top-level names to ../../build/launch_humanoid/launch_humanoid.egg-info/top_level.txt
+reading manifest file '../../build/launch_humanoid/launch_humanoid.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_humanoid/launch_humanoid.egg-info/SOURCES.txt'
+running build
+running build_py
+copying launch_humanoid/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/launch_humanoid/build/lib/launch_humanoid
+running install
+running install_lib
+running install_data
+copying resource/launch_humanoid -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/share/ament_index/resource_index/packages
+copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/share/launch_humanoid
+copying launch/launch_humanoid.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/share/launch_humanoid/launch
+running install_egg_info
+removing '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/lib/python3.12/site-packages/launch_humanoid-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/launch_humanoid/launch_humanoid.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/launch_humanoid/lib/python3.12/site-packages/launch_humanoid-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/launch_humanoid/install.log'

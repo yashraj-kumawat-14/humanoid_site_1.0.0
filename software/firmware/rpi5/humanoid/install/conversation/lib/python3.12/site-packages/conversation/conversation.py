@@ -1,113 +1,79 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-from fuzzywuzzy import process, fuzz
+from rapidfuzz import process, fuzz
+import unicodedata
 from openai import OpenAI
+from utils.local_conversation_data_loader import get_local_conversation_data
+
+def normalize_text(text: str) -> str:
+    # Normalize Unicode for Devanagari
+    return unicodedata.normalize("NFC", text).strip()
 
 
-# === Local dataset (Q&A) ===
-local_data = {
-    "hello": "Hello! I am here to help you.",
-    "good morning": "Good morning! Have a great day.",
-    "good evening": "Good evening! How was your day?",
-    # About AI/Robot
-    "what is ai": "AI stands for Artificial Intelligence — intelligence demonstrated by machines.",
-    "who are you": "I am your robot assistant running on ROS2.",
-    "what is your name": "My name is Vedanshi, I am your assistant.",
-
-    # User wellbeing
-    "how are you": "I'm doing great, thank you! How are you?",
-    "i am fine": "Glad to hear that!",
-
-    # Small talk
-    "thank you": "You're welcome!",
-    "thanks": "Anytime!",
-
-    # Farewell
-    "bye": "Goodbye! Talk to you later.",
-    "good night": "Good night! Sweet dreams.",
-}
-
-
-# === Robot actions (English only) ===
-robot_actions = {
-    "move_forward": ["move forward", "go ahead", "walk forward"],
-    "move_backward": ["move backward", "go back", "reverse"],
-    "move_left": ["move left", "go left"],
-    "move_right": ["move right", "go right"],
-    "stop": ["stop", "halt", "freeze"],
-    "dance": ["dance", "start dancing"],
-    "greet": ["say hello", "greet", "do namaste"],
-    "find_person_yashraj": ["find yashraj", "look for yashraj"]
-}
+# === Local dataset (Q&A) in Hindi ===
+local_data = get_local_conversation_data()
 
 
 class ConversationNode(Node):
     def __init__(self):
         super().__init__("conversation_node")
 
-        # Subscribers & Publishers
         self.sub = self.create_subscription(
             String, "conversation_prompt", self.prompt_callback, 10
         )
         self.pub_response = self.create_publisher(String, "conversation_response", 10)
         self.pub_action = self.create_publisher(String, "humanoid_action", 10)
 
-        self.get_logger().info("✅ Conversation Node started. Listening to prompts...")
+        self.get_logger().info("✅ Hindi Conversation Node started...")
 
     def prompt_callback(self, msg):
-        user_prompt = msg.data.strip().lower()
-        self.get_logger().info(f"📝 Received prompt: {user_prompt}")
+        user_prompt = normalize_text(msg.data)
+        self.get_logger().info(f"📝 Prompt: {user_prompt}")
 
-        # === Step 1: Check local dataset first ===
-        best_match, score = process.extractOne(
-            user_prompt, local_data.keys(), scorer=fuzz.token_set_ratio
+        # Step 1: Local dataset
+        best_match, score, _ = process.extractOne(
+            user_prompt, local_data.keys(), scorer=fuzz.token_sort_ratio
         )
-        if score > 80:
-            response_text = local_data[best_match]
-            self.get_logger().info(f"📚 Local match: {best_match} (score {score})")
-            self._publish_response(response_text)
+        if score > 75:
+            self._publish_response(local_data[best_match]["reply"])
+            self.get_logger().info(f"Matched local: {best_match} ({score})")
+            action_msg = String()
+            action_msg.data = local_data[best_match]["action"]
+            self.pub_action.publish(action_msg)
+            self.get_logger().info(f"Matched action: {action_msg.data} ({score})")
             return
 
-        # === Step 2: Check robot actions ===
-        for action, keywords in robot_actions.items():
-            best_match, score = process.extractOne(
-                user_prompt, keywords, scorer=fuzz.token_set_ratio
-            )
-            if score > 90:
-                self.get_logger().info(f"🔥 Matched action: {action} (score {score})")
+        # Step 2: Robot actions
+        #for action, keywords in robot_actions.items():
+          #  match, score, _ = process.extractOne(
+           #     user_prompt, keywords, scorer=fuzz.token_sort_ratio
+           # )
+           # if score > 85:
+           #     self.get_logger().info(f"🔥 Matched action: {action} ({score})")
+            #    action_msg = String()
+            #    action_msg.data = action
+            #    self.pub_action.publish(action_msg)
+             #   self._publish_response(f"ठीक है, अब मैं {action} कर रही हूँ।")
+             #   return
 
-                # Publish the action
-                action_msg = String()
-                action_msg.data = action
-                self.pub_action.publish(action_msg)
-
-                # Respond verbally
-                response_text = f"Okay, performing action: {action}"
-                self._publish_response(response_text)
-                return
-
-        # === Step 3: Fallback to ChatGPT ===
-        self.get_logger().info("🤖 Low confidence. Asking ChatGPT...")
+        # Step 3: Fallback to GPT
         try:
             client = OpenAI()
             response = client.responses.create(
                 model="gpt-4o-mini",
-                input=user_prompt
+                input=f"यूज़र ने पूछा: {user_prompt}. इसका छोटा सा हिंदी जवाब दो। you are a female, and don't use emoji's. your response will be spoken directy by piper TTS and also make sure you don't use english words."
             )
-            response_text = response.output_text
+            self._publish_response(response.output_text)
         except Exception as e:
-            self.get_logger().error(f"⚠️ OpenAI API error: {e}")
-            response_text = "Sorry, I could not generate a response right now."
+            self.get_logger().error(f"⚠️ GPT error: {e}")
+            self._publish_response("माफ़ कीजिए, अभी मैं जवाब नहीं दे सकती।")
 
-        # Publish final response
-        self._publish_response(response_text)
-
-    def _publish_response(self, response_text):
-        out_msg = String()
-        out_msg.data = response_text
-        self.pub_response.publish(out_msg)
-        self.get_logger().info(f"💬 Published response: {response_text}")
+    def _publish_response(self, text):
+        msg = String()
+        msg.data = text
+        self.pub_response.publish(msg)
+        self.get_logger().info(f"💬 Response: {text}")
 
 
 def main(args=None):

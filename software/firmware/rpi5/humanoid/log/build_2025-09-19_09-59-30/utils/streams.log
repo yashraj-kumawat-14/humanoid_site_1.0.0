@@ -1,0 +1,33 @@
+[2.287s] Invoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/utils': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/install.log --single-version-externally-managed install_data
+[2.859s] /home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.861s]   warnings.warn(msg)
+[3.314s] running egg_info
+[3.362s] creating ../../build/utils/utils.egg-info
+[3.362s] writing ../../build/utils/utils.egg-info/PKG-INFO
+[3.363s] writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt
+[3.363s] writing requirements to ../../build/utils/utils.egg-info/requires.txt
+[3.364s] writing top-level names to ../../build/utils/utils.egg-info/top_level.txt
+[3.364s] writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[3.438s] reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[3.440s] writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'
+[3.441s] running build
+[3.441s] running build_py
+[3.442s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build/lib/utils
+[3.442s] copying utils/config_loader.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build/lib/utils
+[3.443s] copying utils/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build/lib/utils
+[3.443s] running install
+[3.454s] running install_lib
+[3.493s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils
+[3.493s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build/lib/utils/config_loader.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils
+[3.493s] copying /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build/lib/utils/__init__.py -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils
+[3.494s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils/config_loader.py to config_loader.cpython-312.pyc
+[3.495s] byte-compiling /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils/__init__.py to __init__.cpython-312.pyc
+[3.495s] running install_data
+[3.496s] creating /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/share/ament_index/resource_index/packages
+[3.497s] copying resource/utils -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/share/ament_index/resource_index/packages
+[3.497s] copying package.xml -> /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/share/utils
+[3.497s] running install_egg_info
+[3.539s] Copying ../../build/utils/utils.egg-info to /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages/utils-0.0.0-py3.12.egg-info
+[3.540s] running install_scripts
+[3.714s] writing list of installed files to '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/install.log'
+[3.780s] Invoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/utils' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/utils/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/utils/install.log --single-version-externally-managed install_data

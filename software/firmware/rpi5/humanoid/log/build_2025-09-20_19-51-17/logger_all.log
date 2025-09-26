@@ -1,0 +1,313 @@
+[0.213s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/yantrigo/miniconda3/envs/humanoid/bin/colcon', 'build', '--packages-select', 'brain'][0m
+[0.213s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['brain'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d596aa379e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d596b7d9460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d596b7d9460>>)[0m
+[0.268s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.306s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'ignore'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'ignore_ament_install'
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extensions ['colcon_pkg']
+[0.308s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'colcon_pkg'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extensions ['colcon_meta']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'colcon_meta'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extensions ['ros']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'ros'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extensions ['cmake', 'python']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'cmake'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'python'
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extensions ['python_setup_py']
+[0.309s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(local_data) by extension 'python_setup_py'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.310s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.311s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'ignore'
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'ignore_ament_install'
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['colcon_pkg']
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'colcon_pkg'
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['colcon_meta']
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'colcon_meta'
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extensions ['ros']
+[0.313s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/brain) by extension 'ros'
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/brain' with type 'ros.ament_python' and name 'brain'[0m
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'ignore'
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'ignore_ament_install'
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['colcon_pkg']
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'colcon_pkg'
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['colcon_meta']
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'colcon_meta'
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extensions ['ros']
+[0.318s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/conversation) by extension 'ros'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/conversation' with type 'ros.ament_python' and name 'conversation'[0m
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'ignore'
+[0.320s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'ignore_ament_install'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['colcon_pkg']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'colcon_pkg'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['colcon_meta']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'colcon_meta'
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extensions ['ros']
+[0.321s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dance) by extension 'ros'
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dance' with type 'ros.ament_python' and name 'dance'[0m
+[0.322s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'ignore'
+[0.323s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'ignore_ament_install'
+[0.323s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['colcon_pkg']
+[0.323s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'colcon_pkg'
+[0.323s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['colcon_meta']
+[0.323s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'colcon_meta'
+[0.324s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extensions ['ros']
+[0.324s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ears) by extension 'ros'
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ears' with type 'ros.ament_python' and name 'ears'[0m
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'ignore'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'ignore_ament_install'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['colcon_pkg']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'colcon_pkg'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['colcon_meta']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'colcon_meta'
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extensions ['ros']
+[0.326s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/eyes) by extension 'ros'
+[0.327s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/eyes' with type 'ros.ament_python' and name 'eyes'[0m
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'ignore'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'ignore_ament_install'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['colcon_pkg']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'colcon_pkg'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['colcon_meta']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'colcon_meta'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extensions ['ros']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_recognition) by extension 'ros'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/face_recognition' with type 'ros.ament_python' and name 'face_recognition'[0m
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'ignore'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'ignore_ament_install'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['colcon_pkg']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'colcon_pkg'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['colcon_meta']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'colcon_meta'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extensions ['ros']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/find_person) by extension 'ros'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/find_person' with type 'ros.ament_python' and name 'find_person'[0m
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'ignore'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'ignore_ament_install'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['colcon_pkg']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'colcon_pkg'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['colcon_meta']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'colcon_meta'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extensions ['ros']
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hands) by extension 'ros'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/hands' with type 'ros.ament_python' and name 'hands'[0m
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'ignore'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'ignore_ament_install'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['colcon_pkg']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'colcon_pkg'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['colcon_meta']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'colcon_meta'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extensions ['ros']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/head) by extension 'ros'
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/head' with type 'ros.ament_python' and name 'head'[0m
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'ignore'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'ignore_ament_install'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['colcon_pkg']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'colcon_pkg'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['colcon_meta']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'colcon_meta'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extensions ['ros']
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/hmi) by extension 'ros'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/hmi' with type 'ros.ament_python' and name 'hmi_node'[0m
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'ignore'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'ignore_ament_install'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['colcon_pkg']
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'colcon_pkg'
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['colcon_meta']
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'colcon_meta'
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extensions ['ros']
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch_humanoid) by extension 'ros'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/launch_humanoid' with type 'ros.ament_python' and name 'launch_humanoid'[0m
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'ignore'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'ignore_ament_install'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['colcon_pkg']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'colcon_pkg'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['colcon_meta']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'colcon_meta'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extensions ['ros']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/legs) by extension 'ros'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/legs' with type 'ros.ament_python' and name 'legs'[0m
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'ignore'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'ignore_ament_install'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['colcon_pkg']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'colcon_pkg'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['colcon_meta']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'colcon_meta'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extensions ['ros']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mouth) by extension 'ros'
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mouth' with type 'ros.ament_python' and name 'mouth'[0m
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'ignore'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'ignore_ament_install'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['colcon_pkg']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'colcon_pkg'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['colcon_meta']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'colcon_meta'
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extensions ['ros']
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/namaste) by extension 'ros'
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/namaste' with type 'ros.ament_python' and name 'namste'[0m
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'ignore'
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'ignore_ament_install'
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['colcon_pkg']
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'colcon_pkg'
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['colcon_meta']
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'colcon_meta'
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extensions ['ros']
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nano_manager_node) by extension 'ros'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/nano_manager_node' with type 'ros.ament_python' and name 'nano_manager_node'[0m
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'ignore'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'ignore_ament_install'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['colcon_pkg']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'colcon_pkg'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['colcon_meta']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'colcon_meta'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extensions ['ros']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/test_speak) by extension 'ros'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/test_speak' with type 'ros.ament_python' and name 'test_speak'[0m
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'ignore'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'ignore_ament_install'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['colcon_pkg']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'colcon_pkg'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['colcon_meta']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'colcon_meta'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['ros']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'ros'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/utils' with type 'ros.ament_python' and name 'utils'[0m
+[0.357s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.357s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.357s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.357s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.358s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.382s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'conversation' in 'src/conversation'
+[0.382s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'dance' in 'src/dance'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'ears' in 'src/ears'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'eyes' in 'src/eyes'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'face_recognition' in 'src/face_recognition'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'find_person' in 'src/find_person'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'hands' in 'src/hands'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'head' in 'src/head'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'hmi_node' in 'src/hmi'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'launch_humanoid' in 'src/launch_humanoid'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'legs' in 'src/legs'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'mouth' in 'src/mouth'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'namste' in 'src/namaste'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'nano_manager_node' in 'src/nano_manager_node'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'test_speak' in 'src/test_speak'
+[0.383s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'utils' in 'src/utils'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_args' from command line to 'None'
+[0.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_target' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'brain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'brain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain', 'merge_install': False, 'path': '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain', 'symlink_install': False, 'test_result_base': None}[0m
+[0.385s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.387s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.388s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain' with build type 'ament_python'
+[0.388s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('brain', 'ament_prefix_path')
+[0.401s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.402s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/ament_prefix_path.ps1'
+[0.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/ament_prefix_path.dsv'
+[0.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/ament_prefix_path.sh'
+[0.410s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.762s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain'
+[0.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.763s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.492s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data[0m
+[2.405s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/src/brain' returned '0': CONDA_PROMPT_MODIFIER=(humanoid) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/prefix_override:/home/yantrigo/miniconda3/envs/humanoid/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /home/yantrigo/miniconda3/envs/humanoid/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/build install --record /home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/build/brain/install.log --single-version-externally-managed install_data[0m
+[2.410s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain' for CMake module files
+[2.411s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain' for CMake config files
+[2.413s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib'
+[2.413s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/bin'
+[2.413s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/pkgconfig/brain.pc'
+[2.414s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/lib/python3.12/site-packages'
+[2.414s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('brain', 'pythonpath')
+[2.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/pythonpath.ps1'
+[2.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/pythonpath.dsv'
+[2.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/hook/pythonpath.sh'
+[2.419s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/bin'
+[2.420s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(brain)
+[2.420s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.ps1'
+[2.423s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.dsv'
+[2.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.sh'
+[2.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.bash'
+[2.429s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/brain/package.zsh'
+[2.431s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/brain/share/colcon-core/packages/brain)
+[2.432s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.433s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.434s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.434s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.438s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[2.439s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.440s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.440s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify_send'
+[2.484s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.484s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.ps1'
+[2.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/_local_setup_util_ps1.py'
+[2.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.ps1'
+[2.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.sh'
+[2.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/_local_setup_util_sh.py'
+[2.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.sh'
+[2.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.bash'
+[2.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.bash'
+[2.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/local_setup.zsh'
+[2.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/yantrigo/Dropbox/humanoid_site_1.0.0/software/firmware/rpi5/humanoid/install/setup.zsh'
